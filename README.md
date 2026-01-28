@@ -184,7 +184,7 @@ python task_tester.py --tasks generated_tasks/my_tasks.json --dual-model --verbo
 ls results/
 ```
 
-## 核心组件
+## 核心組件
 
 ### 1. Task Tester (`task_tester.py`)
 
@@ -317,7 +317,7 @@ tasks = generator.generate_diverse_tasks(
     use_agentflow=True
 )
 
-# 保存任务
+# 保存任務
 generator.save_tasks_to_file(tasks, "generated_tasks/my_tasks.json")
 ```
 
@@ -448,7 +448,7 @@ class TauBenchConfig:
 ### 完整工作流
 
 ```bash
-# 步驟 1: 使用 AgentFlow 生成高質量任务
+# 步驟 1: 使用 AgentFlow 生成高質量任務
 python task_pipeline.py \
     --num-tasks 20 \
     --agentflow \
@@ -467,7 +467,7 @@ python task_tester.py \
     --visualize \
     --output-dir results/production_test
 
-# 步骤 3: 查看结果
+# 步驟 3: 查看結果
 ls results/production_test/
 # test_results_*.json      - 詳細測試結果
 # test_summary_*.json      - 彙總報告
@@ -488,7 +488,7 @@ python scripts/compare_blueprint_agentflow.py \
 
 詳細的對比分析請參考 [Compare_agentflow_direct.md](Compare_agentflow_direct.md)
 
-### 分析数据引用
+### 分析數據引用
 
 ```bash
 # 分析任務中的真實數據引用
