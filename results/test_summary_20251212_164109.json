@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "total_tasks": 10,
+    "successful_tasks": 7,
+    "success_rate": 0.7,
+    "exact_action_matches": 2,
+    "exact_match_rate": 0.2,
+    "total_warnings": 7,
+    "total_errors": 0
+  },
+  "core_metrics": {
+    "average_action_precision": 0.7833333333333333,
+    "average_action_recall": 0.6583333333333333,
+    "average_action_f1": 0.7061904761904761,
+    "average_output_match_rate": 0.38055676515065845
+  },
+  "metrics": {
+    "average_quality_score": 0.7319658147203374,
+    "average_sequence_quality": 0.7681666666666667,
+    "average_efficiency_score": 0.9999896661440533,
+    "quality_rating_distribution": {
+      "Good": 5,
+      "Fair": 4,
+      "Unacceptable": 1
+    }
+  },
+  "timing": {
+    "average_total_time": 11.129887056350707,
+    "average_model_time": 11.129587841033935,
+    "average_tool_time": 0.0001783609390258789,
+    "total_time_percentiles": {
+      "p50": 10.523444652557373,
+      "p90": 21.741238594055176,
+      "p99": 21.741238594055176
+    },
+    "model_time_percentiles": {
+      "p50": 10.52332615852356,
+      "p90": 21.740787506103516,
+      "p99": 21.740787506103516
+    }
+  },
+  "error_analysis": {
+    "unique_warnings": [
+      "Missing 3 expected actions (recall: 0.0%)",
+      "Action request but no modification tools called",
+      "Missing 1 expected actions (recall: 66.7%)",
+      "Missing 2 expected actions (recall: 50.0%)"
+    ],
+    "unique_errors": [],
+    "most_common_warnings": [
+      [
+        "Missing 2 expected actions (recall: 50.0%)",
+        2
+      ],
+      [
+        "Action request but no modification tools called",
+        2
+      ],
+      [
+        "Missing 1 expected actions (recall: 66.7%)",
+        2
+      ],
+      [
+        "Missing 3 expected actions (recall: 0.0%)",
+        1
+      ]
+    ],
+    "most_common_errors": []
+  }
+}

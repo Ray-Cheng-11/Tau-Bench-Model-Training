@@ -1,0 +1,44 @@
+{
+  "test_results_file": "results\\test_results_20251020_171528.json",
+  "total_tasks_tested": 100,
+  "failed_tasks_count": 23,
+  "failed_task_ids": [
+    "task_005",
+    "task_006",
+    "task_016",
+    "task_021",
+    "task_025",
+    "task_027",
+    "task_030",
+    "task_033",
+    "task_040",
+    "task_041",
+    "task_043",
+    "task_044",
+    "task_051",
+    "task_055",
+    "task_060",
+    "task_061",
+    "task_064",
+    "task_065",
+    "task_072",
+    "task_077",
+    "task_082",
+    "task_090",
+    "task_097"
+  ],
+  "success_rate": 0.77,
+  "successful_tasks_count": 77,
+  "filtered_files": {
+    "successful": [
+      "successful_Sampled_Tasks.json",
+      "successful_retail_unified_sample.json",
+      "successful_airline_unified_sample.json"
+    ],
+    "unsuccessful": [
+      "unsuccessful_Sampled_Tasks.json",
+      "unsuccessful_retail_unified_sample.json",
+      "unsuccessful_airline_unified_sample.json"
+    ]
+  }
+}

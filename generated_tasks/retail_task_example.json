@@ -1,0 +1,40 @@
+{
+  "thought": "I need to create a realistic retail support scenario involving a famous classical musician. The user will request a modification to a pending order (changing the color option of a product). According to policy, I must first authenticate the user via email, then retrieve the order details to confirm it is still pending, list the intended modification, obtain confirmation (assumed given for the ground\u2011truth), and finally call a write API to modify the pending order items. I will include at least one read API (get_user_details, get_order_details) and one write API (modify_pending_order_items). The final output should confirm the change and note that the order remains pending.",
+  "instruction": "Hi, I'm Yo\u2011Yo\u202fMa. My email is yoyoma@example.com. I placed order #12345 yesterday, but I realized I want the brown acoustic guitar case instead of the black one I ordered. Could you change that for me?",
+  "actions": [
+    {
+      "name": "get_user_details",
+      "arguments": {
+        "email": "yoyoma@example.com"
+      }
+    },
+    {
+      "name": "get_order_details",
+      "arguments": {
+        "order_id": "12345"
+      }
+    },
+    {
+      "name": "modify_pending_order_items",
+      "arguments": {
+        "order_id": "12345",
+        "item_modifications": [
+          {
+            "original_item_option": "color black",
+            "new_item_option": "color brown"
+          }
+        ]
+      }
+    }
+  ],
+  "outputs": "Your identity has been verified (User\u202fID: **U987654**). I\u2019ve checked order **#12345** and see that it is still in **pending** status, so it can be modified.\n\nI will replace the **black acoustic guitar case** with the **brown acoustic guitar case** you requested. The price difference is $0, so no additional payment or refund is needed.\n\nThe change has been applied. Your order remains pending and will be processed with the updated item. If you need anything else\u2014such as a different shipping address or payment method\u2014just let me know!",
+  "raw_response": "<thought>\nI need to create a realistic retail support scenario involving a famous classical musician. The user will request a modification to a pending order (changing the color option of a product). According to policy, I must first authenticate the user via email, then retrieve the order details to confirm it is still pending, list the intended modification, obtain confirmation (assumed given for the ground\u2011truth), and finally call a write API to modify the pending order items. I will include at least one read API (get_user_details, get_order_details) and one write API (modify_pending_order_items). The final output should confirm the change and note that the order remains pending.\n</thought>\n\n<instruction>\nHi, I'm Yo\u2011Yo\u202fMa. My email is yoyoma@example.com. I placed order #12345 yesterday, but I realized I want the brown acoustic guitar case instead of the black one I ordered. Could you change that for me?\n</instruction>\n\n<actions>\n[\n  {\n    \"name\": \"get_user_details\",\n    \"arguments\": {\n      \"email\": \"yoyoma@example.com\"\n    }\n  },\n  {\n    \"name\": \"get_order_details\",\n    \"arguments\": {\n      \"order_id\": \"12345\"\n    }\n  },\n  {\n    \"name\": \"modify_pending_order_items\",\n    \"arguments\": {\n      \"order_id\": \"12345\",\n      \"item_modifications\": [\n        {\n          \"original_item_option\": \"color black\",\n          \"new_item_option\": \"color brown\"\n        }\n      ]\n    }\n  }\n]\n</actions>\n\n<outputs>\nYour identity has been verified (User\u202fID: **U987654**). I\u2019ve checked order **#12345** and see that it is still in **pending** status, so it can be modified.\n\nI will replace the **black acoustic guitar case** with the **brown acoustic guitar case** you requested. The price difference is $0, so no additional payment or refund is needed.\n\nThe change has been applied. Your order remains pending and will be processed with the updated item. If you need anything else\u2014such as a different shipping address or payment method\u2014just let me know!\n</outputs>",
+  "domain": "retail",
+  "sampling_frequencies": {
+    "api": 0.9015581801658614,
+    "policy": 0.3990177069440417,
+    "domain_data": 0.38164398336294375,
+    "persona": 0.39765533436824735,
+    "example": 0.5683811864260193
+  }
+}

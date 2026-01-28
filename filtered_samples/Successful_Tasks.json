@@ -1,0 +1,2573 @@
+[
+  {
+    "q": "Hi, I'm Evelyn Gonzalez (email: evelyn.gonzalez7152@example.com). I just moved and need to update my default shipping address to:\n\nAddress1: 123 Maple Street\nAddress2: Apt 5B\nCity: Brooklyn\nState: NY\nCountry: USA\nZIP: 11201\n\nAlso, could you tell me what payment methods I currently have on file? And what's the current status of my order #W4500945? Please go ahead and update the address.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "evelyn.gonzalez7152@example.com",
+          "user_id": "evelyn_gonzalez_8209"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W4500945",
+          "user_id": "evelyn_gonzalez_8209"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "evelyn_gonzalez_8209",
+          "address1": "123 Maple Street",
+          "address2": "Apt 5B",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "USA",
+          "zip": "11201"
+        }
+      }
+    ],
+    "ogt": [
+      "Payment methods on file:\n- PayPal (ID: paypal_6069934)\n- Credit Card (Mastercard ending in 9188, ID: credit_card_2025256)",
+      "Order #W4500945 could not be found in the system. Please verify the order number."
+    ]
+  },
+  {
+    "q": "Hi, I'm Daiki Khan (daiki.khan2146@example.com). Could you give me a quick summary of all my recent orders? Also, I just moved and need to update my default shipping address to 789 Pine Street, Apt 12B, Raleigh, NC, USA, 27601. Please go ahead and change it.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "daiki.khan2146@example.com",
+          "user_id": "daiki_khan_6856"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "daiki_khan_6856"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "daiki_khan_6856",
+          "address1": "789 Pine Street",
+          "address2": "Apt 12B",
+          "city": "Raleigh",
+          "state": "NC",
+          "country": "USA",
+          "zip": "27601"
+        }
+      }
+    ],
+    "ogt": [
+      "Here are your recent orders: #W2329074, #W5861600, #W8461477, #W5875596.",
+      "Your default shipping address has been updated to:\n789 Pine Street\nApt 12B\nRaleigh, NC 27601\nUSA."
+    ]
+  },
+  {
+    "q": "Hi, I'm Aarav Santos (zip 76134). I just moved and need to update my default shipping address to 123 New Street, Apt 12, Fort Worth, TX, 76134, USA. Could you please make the change and confirm my new address?",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "aarav.santos8320@example.com",
+          "user_id": "aarav_santos_2259"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "aarav_santos_2259"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "aarav_santos_2259",
+          "address1": "123 New Street",
+          "address2": "Apt 12",
+          "city": "Fort Worth",
+          "state": "TX",
+          "country": "USA",
+          "zip": "76134"
+        }
+      }
+    ],
+    "ogt": [
+      "Your default shipping address has been updated to:\n123 New Street, Apt 12, Fort Worth, TX, 76134, USA."
+    ]
+  },
+  {
+    "q": "Hi, I'm Aarav Davis (email: aarav.davis2239@example.com). I'm in a bit of a hurry and need to know the current status of my order #W6552785. Also, I realized my address has a typo; please update my default shipping address to: 123 New Street, Apt 4B, Indianapolis, IN, 46233, USA. I've already confirmed the change.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "aarav.davis2239@example.com",
+          "user_id": "aarav_davis_5411"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "aarav_davis_5411"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "aarav_davis_5411",
+          "address1": "123 New Street",
+          "address2": "Apt 4B",
+          "city": "Indianapolis",
+          "state": "IN",
+          "country": "USA",
+          "zip": "46233"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current default address is:\n964 Lakeview Drive, Suite 115, Indianapolis, IN, 46233, USA.",
+      "I was unable to locate order #W6552785 in our system, so I cannot provide a status for it at this time."
+    ]
+  },
+  {
+    "q": "Hello, I'm Juan Brown. I just moved and need to update my default shipping address: the zip code should be 75201 instead of 75347. Also, I have an order #W3611574 that I realized I ordered by mistake and want to cancel it. Please help me with both requests.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "juan.brown2055@example.com",
+          "user_id": "juan_brown_8562"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "juan_brown_8562"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "juan_brown_8562",
+          "address1": "314 Highland Drive",
+          "address2": "Suite 426",
+          "city": "Dallas",
+          "state": "TX",
+          "country": "USA",
+          "zip": "75201"
+        }
+      }
+    ],
+    "ogt": [
+      "Your default shipping address has been updated to:\n314 Highland Drive, Suite 426, Dallas, TX, USA, 75201.\nRegarding order #W3611574, we could not locate this order in our system under your account, so we are unable to cancel it. If you have a different order number or need further assistance, please let us know."
+    ]
+  },
+  {
+    "q": "Hi, I'm Emma Kim (email: emma.kim7876@example.com). I need to update my default shipping address to 123 Maple Street, Apt 4B, Indianapolis, IN, USA, 46220. Also, could you tell me the current status of my order #W2768383? I'm in a hurry, please.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "emma.kim7876@example.com",
+          "user_id": "emma_kim_1076"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "emma_kim_1076"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W2768383",
+          "user_id": "emma_kim_1076"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "emma_kim_1076",
+          "address1": "123 Maple Street",
+          "address2": "Apt 4B",
+          "city": "Indianapolis",
+          "state": "IN",
+          "country": "USA",
+          "zip": "46220"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current orders are: #W2768383, #W9538924, #W3698202, #W4646940.",
+      "I’m sorry, but I couldn’t find details for order #W2768383 in our system."
+    ]
+  },
+  {
+    "q": "Hi, I'm Ava Kovacs (email: ava.kovacs8119@example.com). I realized I mistakenly ordered #W2818151 and want to cancel it. Also, please change my default shipping address to:\nAddress1: 500 New Ave\nAddress2: Apt 9\nCity: Dallas\nState: TX\nCountry: USA\nZIP: 75346\nFinally, could you tell me what payment methods I have on file?",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "ava.kovacs8119@example.com",
+          "user_id": "ava_kovacs_8312"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "ava_kovacs_8312"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W2818151",
+          "user_id": "ava_kovacs_8312"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "ava_kovacs_8312",
+          "address1": "500 New Ave",
+          "address2": "Apt 9",
+          "city": "Dallas",
+          "state": "TX",
+          "country": "USA",
+          "zip": "75346"
+        }
+      }
+    ],
+    "ogt": [
+      "Your payment methods are:\n- PayPal (ID: paypal_3610783)\n- Gift Card (ID: gift_card_8324796) with a balance of $62."
+    ]
+  },
+  {
+    "q": "Hi, I'm Sophia Garcia (sophia.garcia1495@example.com). I realized I ordered the wrong thing in order #W5777276 and need to cancel it right away. Also, I've moved and want to update my default shipping address to: 123 New Street, Apt 4B, Boston, MA, USA, 02108. Please help me with both.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "sophia.garcia1495@example.com",
+          "user_id": "sophia_garcia_5025"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "sophia_garcia_5025"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W5777276",
+          "user_id": "sophia_garcia_5025"
+        }
+      },
+      {
+        "name": "cancel_pending_order",
+        "arguments": {
+          "order_id": "#W5777276",
+          "reason": "ordered by mistake",
+          "user_id": "noah_brown_6181"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "sophia_garcia_5025",
+          "address1": "123 New Street",
+          "address2": "Apt 4B",
+          "city": "Boston",
+          "state": "MA",
+          "country": "USA",
+          "zip": "02108"
+        }
+      }
+    ],
+    "ogt": [
+      "I’ve located your account. Your order #W5777276 is currently pending, so it can be cancelled.",
+      "Your order #W5777276 has been cancelled as requested (reason: ordered by mistake). A refund will be processed to your original payment method.",
+      "Your default shipping address has been updated to: 123 New Street, Apt 4B, Boston, MA, USA, 02108."
+    ]
+  },
+  {
+    "q": "Hi, I'm Isabella Santos (isabella.santos9317@example.com). I just moved and need to change my default shipping address to 123 Maple Avenue, Apt 4B, New York, NY, 10001, USA. Also, could you please confirm the email and the payment method currently on file for me? Thanks!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "isabella.santos9317@example.com",
+          "user_id": "isabella_santos_1643"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "isabella_santos_1643"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "isabella_santos_1643",
+          "address1": "123 Maple Avenue",
+          "address2": "Apt 4B",
+          "city": "New York",
+          "state": "NY",
+          "country": "USA",
+          "zip": "10001"
+        }
+      }
+    ],
+    "ogt": [
+      "Your account email is isabella.santos9317@example.com and the only payment method on file is a Mastercard ending in 4971 (credit_card_4056740). Your default shipping address has been updated to:\n123 Maple Avenue\nApt 4B\nNew York, NY 10001\nUSA\nIf you need any further assistance, feel free to let me know!"
+    ]
+  },
+  {
+    "q": "Hi, I'm Daiki Johnson. I just realized I moved and need to update my default shipping address. Also, could you tell me which orders are currently on file for me? I think I need to cancel order #W9502127 because I ordered it by mistake. I'm usually polite but a bit anxious about getting this right.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "daiki.johnson2279@example.com",
+          "user_id": "daiki_johnson_9523"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "daiki_johnson_9523"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W9502127",
+          "user_id": "daiki_johnson_9523"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "daiki_johnson_9523",
+          "address1": "1200 Mountain View Rd",
+          "address2": "Apt 12B",
+          "city": "Boulder",
+          "state": "CO",
+          "country": "USA",
+          "zip": "80301"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current orders on file are: #W1436802, #W5282037, #W9502127."
+    ]
+  },
+  {
+    "q": "Hi, I'm Aarav Santos (email: aarav.santos2789@example.com). I just moved and need to update my default shipping address for future orders. Please change it to:\nAddress1: 123 New Way\nAddress2: Apt 5\nCity: Phoenix\nState: AZ\nCountry: USA\nZIP: 85071.\nI'm in a hurry, so please let me know once it's done. (I understand you'll need to verify my identity first and will ask for confirmation before making the change.)",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "aarav.santos2789@example.com",
+          "user_id": "aarav_santos_4279"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, this is Sofia Garcia (sofia.garcia6175@example.com). I just moved and need my default shipping address updated to: 123 Ocean Blvd, Apt 9, Miami, FL, USA, 33101. Please make the change right away.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "sofia.garcia6175@example.com",
+          "user_id": "sofia_garcia_9089"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "sofia_garcia_9089",
+          "address1": "123 Ocean Blvd",
+          "address2": "Apt 9",
+          "city": "Miami",
+          "state": "FL",
+          "country": "USA",
+          "zip": "33101"
+        }
+      }
+    ],
+    "ogt": [
+      "Your default shipping address has been successfully updated to:\n123 Ocean Blvd\nApt 9\nMiami, FL 33101\nUSA\nIf you have any other requests, feel free to let me know."
+    ]
+  },
+  {
+    "q": "Hi, I'm Liam. I just moved and need to change my default shipping address to 123 New St, Apt 5, San Francisco, CA 94121. Also, could you remind me what email you have on file and list my payment methods? I also want to cancel order #W9653558 because I realized I don’t need it any more.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "liam.li2557@example.com",
+          "user_id": "liam_li_5260"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "liam_li_5260"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "liam_li_5260",
+          "address1": "123 New St",
+          "address2": "Apt 5",
+          "city": "San Francisco",
+          "state": "CA",
+          "country": "USA",
+          "zip": "94121"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W9653558",
+          "user_id": "liam_li_5260"
+        }
+      }
+    ],
+    "ogt": [
+      "Your registered email is liam.li2557@example.com.",
+      "Your payment methods: Visa credit card ending in 3867.",
+      "Your address has been updated to 123 New St, Apt 5, San Francisco, CA, USA, 94121.",
+      "Order #W9653558 could not be found in our system. Please verify the order ID."
+    ]
+  },
+  {
+    "q": "I am Chen Moore. My email is chen.moore4507@example.com. I need to know the status of my order #W9205196 and cancel it if it's still pending. Also, I've just moved and want to change my default shipping address to 123 Oak Street, Apt 5B, San Diego, CA, USA, 92101. Please handle this for me.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "chen.moore4507@example.com",
+          "user_id": "chen_moore_6080"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "chen_moore_6080"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W9205196",
+          "user_id": "chen_moore_6080"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "chen_moore_6080",
+          "address1": "123 Oak Street",
+          "address2": "Apt 5B",
+          "city": "San Diego",
+          "state": "CA",
+          "country": "USA",
+          "zip": "92101"
+        }
+      }
+    ],
+    "ogt": [
+      "Current default address: 275 Cedar Avenue, Suite 148, Los Angeles, CA, USA, 91087.",
+      "Order #W9205196 could not be found in the system; therefore it cannot be cancelled."
+    ]
+  },
+  {
+    "q": "Hello, I'm Ethan Muller (email: ethan.muller6617@example.com). Could you please tell me what my current default shipping address is? I just moved and need to update it to a new address: 123 New Lane, Apt 4B, Seattle, WA, USA, 98101. Please make the change right away.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "ethan.muller6617@example.com",
+          "user_id": "ethan_muller_6097"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "ethan_muller_6097"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "ethan_muller_6097",
+          "address1": "123 New Lane",
+          "address2": "Apt 4B",
+          "city": "Seattle",
+          "state": "WA",
+          "country": "USA",
+          "zip": "98101"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current default shipping address is:\n668 Spruce Street, Suite 237, Seattle, WA, USA, 98128."
+    ]
+  },
+  {
+    "q": "Hi, I'm Emma Nguyen (email: emma.nguyen8892@example.com). I just moved and need to update my default shipping address to 200 Pine Avenue, Apt 12, Denver, CO, 80222, USA. Also, could you tell me what payment method I have on file? And I want to know the status of order #W9102111. I'm in a hurry!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "emma.nguyen8892@example.com",
+          "user_id": "emma_nguyen_6662"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "emma_nguyen_6662"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current payment method on file is PayPal with ID: paypal_2499655.",
+      "I'm sorry, but I cannot provide information about order #W9102111 because it does not belong to your account.",
+      "I have noted your request to change your default shipping address to:\n200 Pine Avenue\nApt 12\nDenver, CO 80222\nUSA.\nPlease confirm (yes/no) if you would like me to proceed with updating your address."
+    ]
+  },
+  {
+    "q": "Hello, I'm Fatima Anderson (email: fatima.anderson1082@example.com). I just moved and need to change my default shipping address to:\n\naddress1: 123 New Street\naddress2: Apt 5B\ncity: Austin\nstate: TX\ncountry: USA\nzip: 78786\n\nAlso, could you remind me of the order IDs I currently have on file?",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "fatima.anderson1082@example.com",
+          "user_id": "fatima_anderson_7445"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "fatima_anderson_7445"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "fatima_anderson_7445",
+          "address1": "123 New Street",
+          "address2": "Apt 5B",
+          "city": "Austin",
+          "state": "TX",
+          "country": "USA",
+          "zip": "78786"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current default address is:\naddress1: 928 Elm Avenue\naddress2: Suite 398\ncity: Austin\nstate: TX\ncountry: USA\nzip: 78786",
+      "Your current order IDs are: #W9183908, #W1842597, #W6368178"
+    ]
+  },
+  {
+    "q": "Hi, this is Mia Sanchez. I just realized I ordered the wrong thing and need to cancel my order #W4096800 immediately. My email is mia.sanchez1556@example.com. Please cancel it because it was ordered by mistake. I'm in a hurry, so I appreciate a quick resolution.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "mia.sanchez1556@example.com",
+          "user_id": "mia_sanchez_3401"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "mia_sanchez_3401"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W4096800",
+          "user_id": "mia_sanchez_3401"
+        }
+      },
+      {
+        "name": "cancel_pending_order",
+        "arguments": {
+          "order_id": "#W4096800",
+          "reason": "ordered by mistake",
+          "user_id": "noah_brown_6181"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "I need to change my shipping address right now because I entered it wrong. My email is aarav.nguyen9723@example.com. Please update my default address to: 123 New Lane, Apt 5B, Columbus, OH, USA, 43210.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "aarav.nguyen9723@example.com",
+          "user_id": "aarav_nguyen_5688"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "aarav_nguyen_5688",
+          "address1": "123 New Lane",
+          "address2": "Apt 5B",
+          "city": "Columbus",
+          "state": "OH",
+          "country": "USA",
+          "zip": "43210"
+        }
+      }
+    ],
+    "ogt": [
+      "Your default shipping address has been successfully updated to: 123 New Lane, Apt 5B, Columbus, OH, USA, 43210."
+    ]
+  },
+  {
+    "q": "Hi, I'm Anya Lee (anya.lee3013@example.com). I need to change my default shipping address to 123 New St, Apt 5, Austin, TX 78701, USA, zip 78701. Also, could you tell me the current status of my order #W1335809? I'm in a hurry.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "anya.lee3013@example.com",
+          "user_id": "anya_lee_8315"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "anya_lee_8315"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W1335809",
+          "user_id": "anya_lee_8315"
+        }
+      }
+    ],
+    "ogt": [
+      "I’ve looked up your account. Your current default address is 912 Elm Avenue, Suite 936, San Antonio, TX 78227, USA.",
+      "I’m sorry, but I couldn’t find an order with ID #W1335809 in our system. If the order number is correct, it may belong to a different account or hasn’t been recorded yet. Please double‑check the order number.",
+      "Would you like me to proceed with updating your default shipping address to 123 New St, Apt 5, Austin, TX 78701, USA?"
+    ]
+  },
+  {
+    "q": "Hi, I'm Aarav Ito (aarav.ito1554@example.com). I'd like to update my default shipping address to 123 New Avenue, Apt 12B, San Diego, CA, USA, 92101. Also, could you tell me how much balance I have on my gift card? Thanks!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "aarav.ito1554@example.com",
+          "user_id": "aarav_ito_1827"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "aarav_ito_1827"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "aarav_ito_1827",
+          "address1": "123 New Avenue",
+          "address2": "Apt 12B",
+          "city": "San Diego",
+          "state": "CA",
+          "country": "USA",
+          "zip": "92101"
+        }
+      }
+    ],
+    "ogt": [
+      "Your gift card balance is $69."
+    ]
+  },
+  {
+    "q": "Hi, I'm Ethan Li. I just moved and need to update my default shipping address to 123 New Lane, Apt 4B, Columbus, OH, USA, 43210. Also, can you tell me the status of my order #W4108782? If it's still pending, I'd like to cancel it because I no longer need it.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "ethan.li9526@example.com",
+          "user_id": "ethan_li_6208"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "ethan_li_6208",
+          "address1": "123 New Lane",
+          "address2": "Apt 4B",
+          "city": "Columbus",
+          "state": "OH",
+          "country": "USA",
+          "zip": "43210"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W4108782",
+          "user_id": "ethan_li_6208"
+        }
+      },
+      {
+        "name": "cancel_pending_order",
+        "arguments": {
+          "order_id": "#W4108782",
+          "reason": "no longer needed",
+          "user_id": "noah_brown_6181"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm Juan Smith (juan.smith6503@example.com). I just moved and need to update my default shipping address to 500 New Avenue, Apt 12, Austin, TX 78770. Also, I realized I no longer need order #W6484127 and would like to cancel it, reason: 'ordered by mistake'. Please handle both requests.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "juan.smith6503@example.com",
+          "user_id": "juan_smith_9901"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "juan_smith_9901"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W6484127",
+          "user_id": "juan_smith_9901"
+        }
+      },
+      {
+        "name": "cancel_pending_order",
+        "arguments": {
+          "order_id": "#W6484127",
+          "reason": "ordered by mistake",
+          "user_id": "noah_brown_6181"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "juan_smith_9901",
+          "address1": "500 New Avenue",
+          "address2": "Apt 12",
+          "city": "Austin",
+          "state": "TX",
+          "country": "USA",
+          "zip": "78770"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm Sofia Moore (email: sofia.moore4274@example.com). I just moved and need to update my default shipping address to 123 New Avenue, Apt 5B, Washington, DC, USA, 20001. Also, could you tell me the current status of my order #W8808917? If order #W3338814 is still pending, I'd like to cancel it because I ordered it by mistake.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "sofia.moore4274@example.com",
+          "user_id": "sofia_moore_9773"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "sofia_moore_9773",
+          "address1": "123 New Avenue",
+          "address2": "Apt 5B",
+          "city": "Washington",
+          "state": "DC",
+          "country": "USA",
+          "zip": "20001"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W8808917",
+          "user_id": "sofia_moore_9773"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W3338814",
+          "user_id": "sofia_moore_9773"
+        }
+      },
+      {
+        "name": "cancel_pending_order",
+        "arguments": {
+          "order_id": "#W3338814",
+          "reason": "ordered by mistake",
+          "user_id": "noah_brown_6181"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, this is Juan Nguyen (juan.nguyen7877@example.com). I just moved and need my default shipping address updated to: 123 New Way, Apt 5, Phoenix, AZ 85001, USA. Please change it right away.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "juan.nguyen7877@example.com",
+          "user_id": "juan_nguyen_7430"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "juan_nguyen_7430"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "juan_nguyen_7430",
+          "address1": "123 New Way",
+          "address2": "Apt 5",
+          "city": "Phoenix",
+          "state": "AZ",
+          "country": "USA",
+          "zip": "85001"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm Olivia Davis (olivia.davis4495@example.com). I just moved and need to update my default shipping address to 123 New St, Apt 5B, Houston, TX, USA, 77002. Please change it now.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "olivia.davis4495@example.com",
+          "user_id": "olivia_davis_3316"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "olivia_davis_3316"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "olivia_davis_3316",
+          "address1": "123 New St",
+          "address2": "Apt 5B",
+          "city": "Houston",
+          "state": "TX",
+          "country": "USA",
+          "zip": "77002"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "You are Ava Ahmed, a polite but slightly urgent customer. You recently moved and need to update your default shipping address. First, authenticate using your email ava.ahmed9921@example.com, then ask to see your current profile details, and finally confirm the new address: 145 Pine Avenue, Apt 4B, Los Angeles, CA, USA, 90028. Proceed with the address change after confirming.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "ava.ahmed9921@example.com",
+          "user_id": "ava_ahmed_8757"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "ava_ahmed_8757"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "ava_ahmed_8757",
+          "address1": "145 Pine Avenue",
+          "address2": "Apt 4B",
+          "city": "Los Angeles",
+          "state": "CA",
+          "country": "USA",
+          "zip": "90028"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm Liam Patel (email: liam.patel1315@example.com). I'm in a hurry and need to know what shipping address you have on file for me. Also, I want to change it to 123 New St, Apt 4B, Indianapolis, IN, 46233. Lastly, I saw order #W5500815 in my account and would like to cancel it – it's not mine.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "liam.patel1315@example.com",
+          "user_id": "liam_patel_2946"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "liam_patel_2946"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W5500815",
+          "user_id": "liam_patel_2946"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "liam_patel_2946",
+          "address1": "123 New St",
+          "address2": "Apt 4B",
+          "city": "Indianapolis",
+          "state": "IN",
+          "country": "USA",
+          "zip": "46233"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current default shipping address is:\n631 Highland Drive, Suite 935, Indianapolis, IN, 46232, USA.",
+      "I’m sorry, but order #W5500815 does not belong to your account, so I cannot cancel it."
+    ]
+  },
+  {
+    "q": "Hello, I'm Emma Silva (email: emma.silva6593@example.com). I just moved and need to update my default shipping address. Could you first tell me what address you have on file, and then change it to: 123 New Street, Apt 4B, Austin, TX, 78701, USA? I'm in a bit of a hurry, thanks!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "emma.silva6593@example.com",
+          "user_id": "emma_silva_1269"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "emma_silva_1269"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "emma_silva_1269",
+          "address1": "123 New Street",
+          "address2": "Apt 4B",
+          "city": "Austin",
+          "state": "TX",
+          "country": "USA",
+          "zip": "78701"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm James Nguyen (email james.nguyen6448@example.com). I need to update my default shipping address to 123 Oak Street, Apt 5, Columbus, OH 43296. Also, I think I placed an order #W4817420 recently; can you cancel it? I'm in a hurry.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "james.nguyen6448@example.com",
+          "user_id": "james_nguyen_3360"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "james_nguyen_3360",
+          "address1": "123 Oak Street",
+          "address2": "Apt 5",
+          "city": "Columbus",
+          "state": "OH",
+          "country": "USA",
+          "zip": "43296"
+        }
+      }
+    ],
+    "ogt": [
+      {
+        "payment_methods": [
+          {
+            "id": "paypal_9745646",
+            "source": "paypal"
+          },
+          {
+            "id": "gift_card_1247437",
+            "source": "gift_card",
+            "balance": 82
+          }
+        ],
+        "order_cancellation_response": "I’m sorry, but order #W4817420 is not associated with your account, so I can’t cancel it."
+      }
+    ]
+  },
+  {
+    "q": "Hi, I'm Daiki Kim. I just realized my default shipping address on file is outdated. Could you tell me what address you have for me right now, and then update it to the new one below? I'm in a bit of a hurry, so please let me know the current address first. New address: 123 New Avenue, Apt 4B, Boulder, CO, USA, 80301.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "daiki.kim7376@example.com",
+          "user_id": "daiki_kim_2165"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "daiki_kim_2165"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current default shipping address is:\n554 Main Street, Suite 638, Denver, CO, USA, 80298.\nWould you like me to update it to the new address you provided (123 New Avenue, Apt 4B, Boulder, CO, USA, 80301)? Please reply with \"yes\" to confirm."
+    ]
+  },
+  {
+    "q": "Hi, I'm Omar Hernandez. I just moved and need to update my default shipping address. Could you tell me what address and payment method you have on file for me right now, and then change the address to: 1234 Oak Lane, Apt 12B, Dallas, TX, 75204, USA? Thanks!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "omar.hernandez3089@example.com",
+          "user_id": "omar_hernandez_1365"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "omar_hernandez_1365",
+          "address1": "1234 Oak Lane",
+          "address2": "Apt 12B",
+          "city": "Dallas",
+          "state": "TX",
+          "country": "USA",
+          "zip": "75204"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current profile information:\n- Address: 998 Sunset Drive, Suite 385, Fort Worth, TX, 76185, USA\n- Payment method: PayPal (ID: paypal_8914532)\n\nYour address has been successfully updated to:\n1234 Oak Lane, Apt 12B, Dallas, TX, 75204, USA."
+    ]
+  },
+  {
+    "q": "Hello, I'm Fatima Anderson (email: fatima.anderson1447@example.com). I just moved and need to update my default shipping address to the following:\n\nAddress1: 123 New Lane\nAddress2: Apt 5B\nCity: Jacksonville\nState: FL\nCountry: USA\nZIP: 32210\n\nAlso, could you remind me which orders I currently have on my account?",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "fatima.anderson1447@example.com",
+          "user_id": "fatima_anderson_2157"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "fatima_anderson_2157"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "fatima_anderson_2157",
+          "address1": "123 New Lane",
+          "address2": "Apt 5B",
+          "city": "Jacksonville",
+          "state": "FL",
+          "country": "USA",
+          "zip": "32210"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current orders are: #W2974929, #W4111294, #W4514908.",
+      "Your default shipping address has been updated to:\n123 New Lane, Apt 5B, Jacksonville, FL 32210, USA."
+    ]
+  },
+  {
+    "q": "Hello, I'm Harper Silva (email: harper.silva1192@example.com). I'm moving to a new place and need to update my default shipping address to:\n\nAddress1: 500 Ocean Blvd\nAddress2: Apt 12\nCity: San Diego\nState: CA\nCountry: USA\nZIP: 92101\n\nAlso, could you remind me which orders I have on file and what payment method is set as default? My order numbers are #W3323013 and #W1578930. Thanks!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "harper.silva1192@example.com",
+          "user_id": "harper_silva_8534"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "harper_silva_8534"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "harper_silva_8534",
+          "address1": "500 Ocean Blvd",
+          "address2": "Apt 12",
+          "city": "San Diego",
+          "state": "CA",
+          "country": "USA",
+          "zip": "92101"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current orders on file are #W3323013 and #W1578930.",
+      "Your default payment method is a Visa credit card ending in 8726 (credit_card_7453883)."
+    ]
+  },
+  {
+    "q": "Hi, I'm Anya Lee (email: anya.lee3013@example.com). I just moved and need to update my default shipping address ASAP. My new address is: 1240 Oak Street, Apt 12B, Austin, TX, 78701, USA. Please change it for my account.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "anya.lee3013@example.com",
+          "user_id": "anya_lee_8315"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "anya_lee_8315",
+          "address1": "1240 Oak Street",
+          "address2": "Apt 12B",
+          "city": "Austin",
+          "state": "TX",
+          "country": "USA",
+          "zip": "78701"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm Omar Anderson (omar.anderson7675@example.com). I need to quickly update my default shipping address to 123 New Street, Apt 4B, Philadelphia, PA, 19031, USA. Also, could you tell me what payment methods I currently have on file? I'm in a bit of a rush, so please handle this promptly.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "omar.anderson7675@example.com",
+          "user_id": "omar_anderson_3203"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "omar_anderson_3203"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "omar_anderson_3203",
+          "address1": "123 New Street",
+          "address2": "Apt 4B",
+          "city": "Philadelphia",
+          "state": "PA",
+          "country": "USA",
+          "zip": "19031"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current payment methods are:\n- Credit Card (Mastercard) ending in 4300 (ID: credit_card_4190576)\n- PayPal (ID: paypal_6213278)",
+      "Your default shipping address has been updated to:\n123 New Street, Apt 4B, Philadelphia, PA, 19031, USA."
+    ]
+  },
+  {
+    "q": "Hi, I'm Ava Lopez (email: ava.lopez3569@example.com). Could you tell me the current status of my order #W5911003? Also, I need to update my default shipping address to: 123 Ocean Drive, Apt 5B, San Diego, CA, 92101, USA. I'm in a bit of a hurry, so please let me know the order status first and then confirm if I should proceed with the address change.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "ava.lopez3569@example.com",
+          "user_id": "ava_lopez_2676"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "ava_lopez_2676"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W5911003",
+          "user_id": "ava_lopez_2676"
+        }
+      }
+    ],
+    "ogt": [
+      "I’ve located your account (user ID: ava_lopez_2676). Your order #W5911003 does not appear in our system, so I’m unable to retrieve its status at this time. Would you like me to proceed with updating your default shipping address to the new address you provided?"
+    ]
+  },
+  {
+    "q": "I need to cancel my order #W9958106 right now because I ordered it by mistake! Also update my shipping address to 123 New St, Apt 5, Philadelphia, PA 19019. And tell me how much gift card balance I have.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "evelyn.moore7564@example.com",
+          "user_id": "evelyn_moore_6558"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "evelyn_moore_6558"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W9958106",
+          "user_id": "evelyn_moore_6558"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "evelyn_moore_6558",
+          "address1": "123 New St",
+          "address2": "Apt 5",
+          "city": "Philadelphia",
+          "state": "PA",
+          "country": "USA",
+          "zip": "19019"
+        }
+      }
+    ],
+    "ogt": [
+      "I was unable to locate order #W9958106 in our system. Please verify the order number.",
+      "Your current gift card balance is $45."
+    ]
+  },
+  {
+    "q": "Hi, I'm Ava Moore (ava.moore2450@example.com). I realized I ordered the wrong item and need to cancel order #W8331214 (reason: ordered by mistake). Also, please update my default shipping address to: 123 Oak Lane, Apt 4B, Phoenix, AZ, USA, 85033. Lastly, could you tell me the current status of order #W8495163? Thanks!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "ava.moore2450@example.com",
+          "user_id": "ava_moore_4814"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "ava_moore_4814"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W8331214",
+          "user_id": "ava_moore_4814"
+        }
+      },
+      {
+        "name": "cancel_pending_order",
+        "arguments": {
+          "order_id": "#W8331214",
+          "reason": "ordered by mistake",
+          "user_id": "noah_brown_6181"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "ava_moore_4814",
+          "address1": "123 Oak Lane",
+          "address2": "Apt 4B",
+          "city": "Phoenix",
+          "state": "AZ",
+          "country": "USA",
+          "zip": "85033"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W8495163",
+          "user_id": "ava_moore_4814"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm Evelyn Patel (email: evelyn.patel2010@example.com). I just moved and need to update my default shipping address. Also, could you remind me which payment methods I have saved? I'm generally patient but would like to get this sorted quickly.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "evelyn.patel2010@example.com",
+          "user_id": "evelyn_patel_8882"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "evelyn_patel_8882"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "evelyn_patel_8882",
+          "address1": "1020 Oakwood Avenue",
+          "address2": "Apt 7B",
+          "city": "Raleigh",
+          "state": "NC",
+          "country": "USA",
+          "zip": "27601"
+        }
+      }
+    ],
+    "ogt": [
+      "Current default address:\n829 Chestnut Street, Suite 252, Charlotte, NC, USA, 28262",
+      "Saved payment methods:\n- PayPal (ID: paypal_3704667)"
+    ]
+  },
+  {
+    "q": "Hey, I'm Yusuf Khan. I just realized I ordered the wrong thing on order #W7613749 and want to cancel it right away. My email is yusuf.khan7390@example.com. Please cancel it.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "yusuf.khan7390@example.com",
+          "user_id": "yusuf_khan_7091"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "yusuf_khan_7091"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W7613749",
+          "user_id": "yusuf_khan_7091"
+        }
+      }
+    ],
+    "ogt": [
+      "I’ve verified your identity as Yusuf Khan (user ID: yusuf_khan_7091). The order you mentioned, #W7613749, belongs to a different customer (Olivia Silva) and is not associated with your account. For security reasons, I’m unable to cancel or modify orders that are not yours. If you believe this is an error, please let me know, or you may need to contact the rightful account holder. Is there anything else I can help you with regarding your own orders or account?"
+    ]
+  },
+  {
+    "q": "Hey, it's Juan Sanchez (juan.sanchez3280@example.com). I just realized I ordered the wrong thing and need #W6483628 cancelled immediately. It's a mistake, so please cancel it. I need this done ASAP.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "juan.sanchez3280@example.com",
+          "user_id": "juan_sanchez_8249"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W6483628",
+          "user_id": "juan_sanchez_8249"
+        }
+      },
+      {
+        "name": "cancel_pending_order",
+        "arguments": {
+          "order_id": "#W6483628",
+          "reason": "ordered by mistake",
+          "user_id": "noah_brown_6181"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "I am Daiki Silva (daiki.silva6295@example.com). I just realized I ordered the wrong items in my recent order #W7999678 and need to cancel it immediately (ordered by mistake). Also, I moved to a new apartment and want to update my default address to 123 Market St, Apt 5, San Francisco, CA, USA, 94103. Please help.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "daiki.silva6295@example.com",
+          "user_id": "daiki_silva_2903"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W7999678",
+          "user_id": "daiki_silva_2903"
+        }
+      },
+      {
+        "name": "cancel_pending_order",
+        "arguments": {
+          "order_id": "#W7999678",
+          "reason": "ordered by mistake",
+          "user_id": "noah_brown_6181"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "daiki_silva_2903",
+          "address1": "123 Market St",
+          "address2": "Apt 5",
+          "city": "San Francisco",
+          "state": "CA",
+          "country": "USA",
+          "zip": "94103"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm Ava Hernandez (email: ava.hernandez8232@example.com, zip 46205). Could you tell me what payment methods I have on file? Also, I need to update my default shipping address: change the second line from 'Suite 881' to 'Apt 12B'. I'm in a bit of a hurry, so please handle this quickly.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "ava.hernandez8232@example.com",
+          "user_id": "ava_hernandez_9365"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "ava_hernandez_9365",
+          "address1": "661 Highland Drive",
+          "address2": "Apt 12B",
+          "city": "Indianapolis",
+          "state": "IN",
+          "country": "USA",
+          "zip": "46205"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current payment methods are: PayPal (ID: paypal_7565289).",
+      "Your address has been updated successfully. New address: 661 Highland Drive, Apt 12B, Indianapolis, IN, USA, 46205."
+    ]
+  },
+  {
+    "q": "Hi, I'm Liam Johnson (liam.johnson8037@example.com). I just moved and need to change my default shipping address to: 742 Oak Avenue, Apt 12B, Indianapolis, IN, 46204, USA. Please update it for me.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "liam.johnson8037@example.com",
+          "user_id": "liam_johnson_5676"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "liam_johnson_5676",
+          "address1": "742 Oak Avenue",
+          "address2": "Apt 12B",
+          "city": "Indianapolis",
+          "state": "IN",
+          "country": "USA",
+          "zip": "46204"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm Sofia Lee. I need to update my default shipping address. Could you first show me the address we have on file, and then change it to 200 Oak Avenue, Apt 12B, Los Angeles, CA, USA, 91401? Please let me know once it's updated.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "sofia.lee5283@example.com",
+          "user_id": "sofia_lee_8857"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "sofia_lee_8857",
+          "address1": "200 Oak Avenue",
+          "address2": "Apt 12B",
+          "city": "Los Angeles",
+          "state": "CA",
+          "country": "USA",
+          "zip": "91401"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current default address is:\n142 Chestnut Street, Suite 756, Los Angeles, CA, USA, 91401.",
+      "Your address has been updated to:\n200 Oak Avenue, Apt 12B, Los Angeles, CA, USA, 91401."
+    ]
+  },
+  {
+    "q": "Hello, I'm Noah Garcia (email: noah.garcia9427@example.com). My default shipping address is no longer correct. Could you please change it to 123 New Ave, Apt 5B, Los Angeles, CA, 90012, USA? Also, could you let me know which payment methods I have on file? Thank you!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "noah.garcia9427@example.com",
+          "user_id": "noah_garcia_8073"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "noah_garcia_8073"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "noah_garcia_8073",
+          "address1": "123 New Ave",
+          "address2": "Apt 5B",
+          "city": "Los Angeles",
+          "state": "CA",
+          "country": "USA",
+          "zip": "90012"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current payment methods on file:\n- Credit Card (Visa) ending in 1992 (ID: credit_card_9451898)"
+    ]
+  },
+  {
+    "q": "Hi, I’m Harper Brown (harper.brown3965@example.com). I just moved and need to change my default shipping address to 123 New Street, Apt 4B, Dallas, TX 75201, USA. Also, could you tell me what orders I currently have and their status? Thanks!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "harper.brown3965@example.com",
+          "user_id": "harper_brown_7363"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "harper_brown_7363"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "harper_brown_7363",
+          "address1": "123 New Street",
+          "address2": "Apt 4B",
+          "city": "Dallas",
+          "state": "TX",
+          "country": "USA",
+          "zip": "75201"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current orders are: #W1840144, #W2693718, #W2273069. I’m unable to retrieve their exact status at this moment.",
+      "Your default shipping address has been updated to: 123 New Street, Apt 4B, Dallas, TX 75201, USA."
+    ]
+  },
+  {
+    "q": "I’m Liam Santos (liam.santos7226@example.com). I just realized I ordered the wrong thing and need to cancel order #W4011814 immediately. Please cancel it for me – it was ordered by mistake.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "liam.santos7226@example.com",
+          "user_id": "liam_santos_5468"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "liam_santos_5468"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W4011814",
+          "user_id": "liam_santos_5468"
+        }
+      }
+    ],
+    "ogt": [
+      "Hello Liam, I’ve located your account (user ID: liam_santos_5468) and verified your default address in Austin, TX. Your profile shows two recent orders: #W6794581 and #W4011814. However, I’m unable to find order #W4011814 in our order system. Could you please double‑check the order number and let me know if there’s any additional information (e.g., the email used for the purchase or the date) so I can assist you further with the cancellation?"
+    ]
+  },
+  {
+    "q": "Hi, I'm Fatima Smith (email: fatima.smith9435@example.com). I just moved and need to update my default shipping address to 123 New Lane, Apt 4B, Philadelphia, PA, USA, 19133. Also, could you tell me which payment methods are currently on file for my account? I'm in a bit of a hurry, thanks!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "fatima.smith9435@example.com",
+          "user_id": "fatima_smith_4908"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "fatima_smith_4908",
+          "address1": "123 New Lane",
+          "address2": "Apt 4B",
+          "city": "Philadelphia",
+          "state": "PA",
+          "country": "USA",
+          "zip": "19133"
+        }
+      }
+    ],
+    "ogt": [
+      "Your default shipping address has been successfully updated to: 123 New Lane, Apt 4B, Philadelphia, PA, USA, 19133.",
+      "The payment methods on file for your account are:\n- Credit Card (Mastercard ending in 2320) – ID: credit_card_4736367\n- PayPal – ID: paypal_1575973"
+    ]
+  },
+  {
+    "q": "Hello, this is Anya Garcia (email: anya.garcia2061@example.com). I just moved and need to update my default shipping address to the new apartment. Please change my address to:\nAddress1: 742 Evergreen Terrace\nAddress2: Apt 4B\nCity: Philadelphia\nState: PA\nCountry: USA\nZIP: 19036. I’d like this done quickly because I have a pending order coming up.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "anya.garcia2061@example.com",
+          "user_id": "anya_garcia_3271"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "anya_garcia_3271",
+          "address1": "742 Evergreen Terrace",
+          "address2": "Apt 4B",
+          "city": "Philadelphia",
+          "state": "PA",
+          "country": "USA",
+          "zip": "19036"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm Aarav Nguyen. I need to check what address you have on file for me and see the orders linked to my account. Also, I'm moving to a new apartment and want to update my default shipping address to 123 New Lane, Apt 5, Columbus, OH, USA, 43210. Please let me know my current address and orders first, then go ahead and change the address if that's okay.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "aarav.nguyen9723@example.com",
+          "user_id": "aarav_nguyen_5688"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "aarav_nguyen_5688"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "aarav_nguyen_5688",
+          "address1": "123 New Lane",
+          "address2": "Apt 5",
+          "city": "Columbus",
+          "state": "OH",
+          "country": "USA",
+          "zip": "43210"
+        }
+      }
+    ],
+    "ogt": [
+      "Current address on file:\nAddress1: 676 Sunset Drive\nAddress2: Suite 918\nCity: Columbus\nState: OH\nCountry: USA\nZIP: 43132",
+      "Orders linked to your account: [\"#W5493256\"]",
+      "Your default address has been updated to:\nAddress1: 123 New Lane\nAddress2: Apt 5\nCity: Columbus\nState: OH\nCountry: USA\nZIP: 43210"
+    ]
+  },
+  {
+    "q": "Hello, I'm Omar Hernandez. I just realized I need to change my default shipping address before my next order arrives. My current address is 998 Sunset Drive, Suite 385, Fort Worth, TX 76185, but I have moved to 123 Oak Lane, Apt 4B, Dallas, TX 75201. Could you please update my profile with the new address? Also, could you confirm the email we have on file and tell me if I have any pending orders?",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "omar.hernandez3089@example.com",
+          "user_id": "omar_hernandez_1365"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "omar_hernandez_1365"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "omar_hernandez_1365",
+          "address1": "123 Oak Lane",
+          "address2": "Apt 4B",
+          "city": "Dallas",
+          "state": "TX",
+          "country": "USA",
+          "zip": "75201"
+        }
+      }
+    ],
+    "ogt": [
+      "Your email on file is omar.hernandez3089@example.com.",
+      "You currently have no pending orders.",
+      "Your default shipping address has been updated to: 123 Oak Lane, Apt 4B, Dallas, TX 75201, USA."
+    ]
+  },
+  {
+    "q": "Hi, I'm Anya Taylor (anya.taylor7813@example.com). I just moved and need my default shipping address changed to 500 New Horizon Blvd, Apt 12B, Brooklyn, NY, USA, 11201. Also, could you let me know how much is left on my gift card? I'm in a bit of a rush, thanks!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "anya.taylor7813@example.com",
+          "user_id": "anya_taylor_1082"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "anya_taylor_1082",
+          "address1": "500 New Horizon Blvd",
+          "address2": "Apt 12B",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "USA",
+          "zip": "11201"
+        }
+      }
+    ],
+    "ogt": [
+      "Your gift card balance is $23."
+    ]
+  },
+  {
+    "q": "Hi, I'm Amelia Nguyen. I just realized my default shipping address is outdated. Could you please update it to 123 New St, Apt 4B, San Francisco, CA 94107? My email is amelia.nguyen3376@example.com. I'd like this change to take effect immediately for any future orders. Thanks!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "amelia.nguyen3376@example.com",
+          "user_id": "amelia_nguyen_5209"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "amelia_nguyen_5209",
+          "address1": "123 New St",
+          "address2": "Apt 4B",
+          "city": "San Francisco",
+          "state": "CA",
+          "country": "USA",
+          "zip": "94107"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm Mei Johansson. I need to verify my current default shipping address and then update it because I've moved to a new apartment. My new address should be: 500 Oak Lane, Apt 12B, Washington, DC, USA, 20510. Also, could you tell me the status of my order #W7538736? My email is mei.johansson4313@example.com.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "mei.johansson4313@example.com",
+          "user_id": "mei_johansson_5847"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "mei_johansson_5847"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W7538736",
+          "user_id": "mei_johansson_5847"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "mei_johansson_5847",
+          "address1": "500 Oak Lane",
+          "address2": "Apt 12B",
+          "city": "Washington",
+          "state": "DC",
+          "country": "USA",
+          "zip": "20510"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current default shipping address is:\n257 Maple Drive, Suite 338, Washington, DC, USA, 20509.",
+      "We were unable to locate order #W7538736 in our system. Please double‑check the order number or let us know if there is another identifier you can provide."
+    ]
+  },
+  {
+    "q": "Hi, I'm Daiki Moore (daiki.moore4201@example.com). I just moved and need to update my default shipping address. Please change it to: 123 New Horizon Blvd, Apt 12, Raleigh, NC, 27601, USA. I want this reflected for all future orders.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "daiki.moore4201@example.com",
+          "user_id": "daiki_moore_2077"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "daiki_moore_2077",
+          "address1": "123 New Horizon Blvd",
+          "address2": "Apt 12",
+          "city": "Raleigh",
+          "state": "NC",
+          "country": "USA",
+          "zip": "27601"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm Lei Gonzalez (lei.gonzalez2684@example.com). I just moved and need to update my default shipping address to 123 New Street, Apt 4B, Los Angeles, CA, 90001, USA. Also, can you tell me the current status of my orders #W1632213 and #W7870498? I'd like to cancel #W7870498 if it's still pending.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "lei.gonzalez2684@example.com",
+          "user_id": "lei_gonzalez_5407"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "lei_gonzalez_5407"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W1632213",
+          "user_id": "lei_gonzalez_5407"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W7870498",
+          "user_id": "lei_gonzalez_5407"
+        }
+      }
+    ],
+    "ogt": [
+      "Hello Lei! I’ve located your account (user ID: lei_gonzalez_5407). Your current default address is:\n767 Park Avenue, Suite 594, San Diego, CA, 92105, USA.\n\nRegarding your orders:\n- Order #W1632213: I’m unable to find this order in our system, so I can’t provide a status at the moment.\n- Order #W7870498: This order also isn’t found in our records.\n\nSince I can’t verify the status of #W7870498, I’m unable to cancel it right now.\n\nYou’d like to update your default shipping address to:\n123 New Street, Apt 4B, Los Angeles, CA, 90001, USA.\n\nPlease confirm that you would like me to proceed with this address change (yes/no)."
+    ]
+  },
+  {
+    "q": "Hi, this is Olivia Smith. My email is olivia.smith9157@example.com. I need you to cancel order #W1348609 right now because I changed my mind, and also update my default shipping address to: 1234 New Lane, Apt 12, Miami, FL, USA, 33101. Please do this ASAP.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "olivia.smith9157@example.com",
+          "user_id": "olivia_smith_8953"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "olivia_smith_8953"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W1348609",
+          "user_id": "olivia_smith_8953"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "You are Mia Rossi (email: mia.rossi3684@example.com) living at 680 Cedar Avenue, Suite 884, Columbus, OH 43274, USA. You just realized you have moved to a new apartment at 123 Oak Street, Apt 5B, Columbus, OH 43274, USA. You would like to (1) confirm the address currently on file for your account and (2) update your default shipping address to the new one. You are polite but a bit rushed.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "mia.rossi3684@example.com",
+          "user_id": "mia_rossi_6568"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "mia_rossi_6568"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "mia_rossi_6568",
+          "address1": "123 Oak Street",
+          "address2": "Apt 5B",
+          "city": "Columbus",
+          "state": "OH",
+          "country": "USA",
+          "zip": "43274"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current default address is: 680 Cedar Avenue, Suite 884, Columbus, OH 43274, USA."
+    ]
+  },
+  {
+    "q": "Hi, I'm Omar Lopez (email: omar.lopez9490@example.com, zip: 92185). I realized my default shipping address is incorrect. Please change it to: address1: \"123 New Ave\", address2: \"Suite 5\", city: \"San Diego\", state: \"CA\", country: \"USA\", zip: \"92185\". Also, could you tell me the current status of my order #W1106948? Thanks!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "omar.lopez9490@example.com",
+          "user_id": "omar_lopez_7451"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "omar_lopez_7451"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "omar_lopez_7451",
+          "address1": "123 New Ave",
+          "address2": "Suite 5",
+          "city": "San Diego",
+          "state": "CA",
+          "country": "USA",
+          "zip": "92185"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W1106948",
+          "user_id": "omar_lopez_7451"
+        }
+      }
+    ],
+    "ogt": [
+      "Your default shipping address has been updated to: 123 New Ave, Suite 5, San Diego, CA 92185, USA.",
+      "I’m sorry, but I couldn’t locate order #W1106948 in our system."
+    ]
+  },
+  {
+    "q": "Hi, I'm Daiki Silva (email: daiki.silva5143@example.com). I need to update my default shipping address because I'm moving. Please change it to:\nAddress1: 123 New Way\nAddress2: Apt 12\nCity: San Francisco\nState: CA\nCountry: USA\nZIP: 94107\nAlso, could you tell me what my current gift card balance is? I'm in a hurry, thanks!",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "daiki.silva5143@example.com",
+          "user_id": "daiki_silva_1055"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "daiki_silva_1055"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "daiki_silva_1055",
+          "address1": "123 New Way",
+          "address2": "Apt 12",
+          "city": "San Francisco",
+          "state": "CA",
+          "country": "USA",
+          "zip": "94107"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current gift card balance is $26.",
+      "Your default address has been updated to: 123 New Way, Apt 12, San Francisco, CA 94107, USA."
+    ]
+  },
+  {
+    "q": "Hi, I'm Anya Kim (email: anya.kim9008@example.com). Could you please tell me what shipping address you have on file for me and which payment methods are linked to my account? I also need to change my default address to: 123 New Avenue, Apt 45, Denver, CO, USA, 80202. Please let me know the current info first, and then go ahead with the update.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "anya.kim9008@example.com",
+          "user_id": "anya_kim_6731"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "anya_kim_6731"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "anya_kim_6731",
+          "address1": "123 New Avenue",
+          "address2": "Apt 45",
+          "city": "Denver",
+          "state": "CO",
+          "country": "USA",
+          "zip": "80202"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current default shipping address is:\n584 Main Street, Suite 933, Denver, CO, USA, 80218.",
+      "Your linked payment methods are:\n- PayPal (ID: paypal_5023612)."
+    ]
+  },
+  {
+    "q": "Hi, I'm Isabella Johnson (isabella.johnson5435@example.com). I just moved and need to update my default shipping address to 123 Oak Street, Apt 4B, Seattle, WA, USA, 98101. Please make this change and let me know once it's done. I confirm the update.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "isabella.johnson5435@example.com",
+          "user_id": "isabella_johnson_6293"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "isabella_johnson_6293"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "isabella_johnson_6293",
+          "address1": "123 Oak Street",
+          "address2": "Apt 4B",
+          "city": "Seattle",
+          "state": "WA",
+          "country": "USA",
+          "zip": "98101"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "I am Mohamed Jackson (mohamed.jackson7203@example.com). I need you to exchange the Water Bottle from order #W4817420 for a red one right now—this blue bottle is terrible. Do it immediately.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "mohamed.jackson7203@example.com",
+          "user_id": "mohamed_jackson_1549"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "mohamed_jackson_1549"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W4817420",
+          "user_id": "mohamed_jackson_1549"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "I am Ethan Moore (email: ethan.moore4109@example.com). I need to know the current status of my order #W6026015 because I haven't received any update. Also, I just moved and want to change my default shipping address to: 123 New Lane, Apt 2B, Austin, TX, 78701. Please update it after confirming the change. I'm in a hurry, so please handle this quickly.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "ethan.moore4109@example.com",
+          "user_id": "ethan_moore_9003"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "ethan_moore_9003"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W6026015",
+          "user_id": "ethan_moore_9003"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "ethan_moore_9003",
+          "address1": "123 New Lane",
+          "address2": "Apt 2B",
+          "city": "Austin",
+          "state": "TX",
+          "country": "USA",
+          "zip": "78701"
+        }
+      }
+    ],
+    "ogt": [
+      "I’m sorry, but I couldn’t locate order #W6026015 in our system. Please double‑check the order number and let me know if there’s anything else I can help with.",
+      "Sure, I’ll update your default shipping address to:\n123 New Lane, Apt 2B, Austin, TX 78701.\nIs that correct?"
+    ]
+  },
+  {
+    "q": "Hi, I’m Mohamed Smith (email: mohamed.smith3152@example.com). I just moved and need to update my default shipping address to 123 New Lane, Apt 9, Houston, TX, USA, 77001. Also, could you tell me the current status of my recent orders #W7808613 and #W4125188? I’m sure I want the address change to go through, so please proceed with updating it.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "mohamed.smith3152@example.com",
+          "user_id": "mohamed_smith_9224"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "mohamed_smith_9224"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W7808613",
+          "user_id": "mohamed_smith_9224"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W4125188",
+          "user_id": "mohamed_smith_9224"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "mohamed_smith_9224",
+          "address1": "123 New Lane",
+          "address2": "Apt 9",
+          "city": "Houston",
+          "state": "TX",
+          "country": "USA",
+          "zip": "77001"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current default shipping address is:\n372 Main Street, Suite 578, Houston, TX, USA, 77252.",
+      "We were unable to locate order #W7808613 in our system. Please verify the order ID.",
+      "We were unable to locate order #W4125188 in our system. Please verify the order ID."
+    ]
+  },
+  {
+    "q": "Hi, this is Daiki Moore. I just moved to a new place and need to update my default shipping address. My new address is: 789 Oak Avenue, Apt 12B, Austin, TX, USA, 78701. Please make the change.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "daiki.moore1031@example.com",
+          "user_id": "daiki_moore_2408"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "daiki_moore_2408",
+          "address1": "789 Oak Avenue",
+          "address2": "Apt 12B",
+          "city": "Austin",
+          "state": "TX",
+          "country": "USA",
+          "zip": "78701"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hey, this is Harper Lee. I need you to cancel order #W8584917 right now because I ordered it by mistake. Also, update my default shipping address to 123 New Lane, Apt 4B, Dallas, TX 75201. My email is harper.lee5642@example.com. Do it ASAP.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "harper.lee5642@example.com",
+          "user_id": "harper_lee_2110"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W8584917",
+          "user_id": "harper_lee_2110"
+        }
+      },
+      {
+        "name": "cancel_pending_order",
+        "arguments": {
+          "order_id": "#W8584917",
+          "reason": "ordered by mistake",
+          "user_id": "noah_brown_6181"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "harper_lee_2110",
+          "address1": "123 New Lane",
+          "address2": "Apt 4B",
+          "city": "Dallas",
+          "state": "TX",
+          "country": "USA",
+          "zip": "75201"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm James Lee. Could you please tell me what my current default shipping address is? I just moved and need to update it to 123 Oak Avenue, Apt 5B, Columbus, OH, 43215, USA. My email is james.lee7204@example.com. Please make the change as soon as possible.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "james.lee7204@example.com",
+          "user_id": "james_lee_9638"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "james_lee_9638",
+          "address1": "123 Oak Avenue",
+          "address2": "Apt 5B",
+          "city": "Columbus",
+          "state": "OH",
+          "country": "USA",
+          "zip": "43215"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current default shipping address is:\n935 Cedar Street\nSuite 338\nColumbus, OH 43138\nUSA"
+    ]
+  },
+  {
+    "q": "Hi, I'm Aarav Garcia. I need to cancel my pending order #W3038897 because I ordered it by mistake. Also, please change the shipping address for my other pending order #W7821216 to 123 New Ave, Apt 5, New York, NY 10001, USA. Lastly, could you confirm my registered email and default address?",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "aarav.garcia8277@example.com",
+          "user_id": "aarav_garcia_9402"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W3038897",
+          "user_id": "aarav_garcia_9402"
+        }
+      },
+      {
+        "name": "cancel_pending_order",
+        "arguments": {
+          "order_id": "#W3038897",
+          "reason": "ordered by mistake",
+          "user_id": "noah_brown_6181"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W7821216",
+          "user_id": "aarav_garcia_9402"
+        }
+      },
+      {
+        "name": "modify_pending_order_address",
+        "arguments": {
+          "order_id": "#W7821216",
+          "address1": "123 New Ave",
+          "address2": "Apt 5",
+          "city": "New York",
+          "state": "NY",
+          "country": "USA",
+          "zip": "10001",
+          "user_id": "aarav_garcia_9402"
+        }
+      }
+    ],
+    "ogt": [
+      "Your registered email is aarav.garcia8277@example.com.",
+      "Your default address is: 822 Chestnut Street, Suite 868, New York, NY 10129, USA."
+    ]
+  },
+  {
+    "q": "Hi, I'm Harper Kim (harper.kim7658@example.com). I'm in a bit of a rush—could you tell me what my current default shipping address is and the status of my order #W2470317? Also, I need to change my default address to 123 New Street, Apt 5B, New York, NY, USA, 10001. Please handle this quickly.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "harper.kim7658@example.com",
+          "user_id": "harper_kim_3380"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W2470317",
+          "user_id": "harper_kim_3380"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "harper_kim_3380",
+          "address1": "123 New Street",
+          "address2": "Apt 5B",
+          "city": "New York",
+          "state": "NY",
+          "country": "USA",
+          "zip": "10001"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current default shipping address is:\n319 Laurel Lane, Suite 110, New York, NY, USA, 10132.",
+      "Order #W2470317 could not be found in our system. If you believe this is an error, please double‑check the order number or contact support."
+    ]
+  },
+  {
+    "q": "Hello, I'm Sofia Moore (email: sofia.moore4274@example.com). I just moved and need to update my default shipping address to: 250 Maple Avenue, Apt 12B, Washington, DC, USA, 20032. Also, could you let me know how many orders I have and what their IDs are?",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "sofia.moore4274@example.com",
+          "user_id": "sofia_moore_9773"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "sofia_moore_9773"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "sofia_moore_9773",
+          "address1": "250 Maple Avenue",
+          "address2": "Apt 12B",
+          "city": "Washington",
+          "state": "DC",
+          "country": "USA",
+          "zip": "20032"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "Hi, I'm Liam Thomas (liam.thomas4271@example.com). I just moved and need to update my default shipping address to 123 New Street, Apt 4B, Washington, DC 20001, USA. Could you also confirm the email you have on file for me?",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "liam.thomas4271@example.com",
+          "user_id": "liam_thomas_8833"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "liam_thomas_8833"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "liam_thomas_8833",
+          "address1": "123 New Street",
+          "address2": "Apt 4B",
+          "city": "Washington",
+          "state": "DC",
+          "country": "USA",
+          "zip": "20001"
+        }
+      }
+    ],
+    "ogt": [
+      "Your email on file is liam.thomas4271@example.com.",
+      "Your default shipping address has been updated to:\n123 New Street\nApt 4B\nWashington, DC 20001\nUSA"
+    ]
+  },
+  {
+    "q": "Hi, I'm Mia Johansson (email: mia.johansson6766@example.com). I just moved and need to update my default shipping address to 123 New Lane, Apt 5B, Austin, TX 78701, USA. Also, could you remind me what my current default address and payment methods are?",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "mia.johansson6766@example.com",
+          "user_id": "mia_johansson_7000"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "mia_johansson_7000"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "mia_johansson_7000",
+          "address1": "123 New Lane",
+          "address2": "Apt 5B",
+          "city": "Austin",
+          "state": "TX",
+          "country": "USA",
+          "zip": "78701"
+        }
+      }
+    ],
+    "ogt": [
+      "Your current default address is:\n734 Oak Street, Suite 397, San Antonio, TX 78280, USA.",
+      "Your payment methods on file are:\n- Credit Card (Mastercard) ending in 2181 (ID: credit_card_6706014)\n- Gift Card with balance $67 (ID: gift_card_8883122)"
+    ]
+  },
+  {
+    "q": "Hi, I'm Aarav Wilson (email: aarav.wilson8531@example.com). I just moved and need to update my default shipping address to the new one: 123 New Lane, Apt 4B, Raleigh, NC, USA, 27601. Please make this change for me. I'm in a bit of a hurry, so confirm and do it as soon as possible.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "aarav.wilson8531@example.com",
+          "user_id": "aarav_wilson_9535"
+        }
+      },
+      {
+        "name": "modify_user_address",
+        "arguments": {
+          "user_id": "aarav_wilson_9535",
+          "address1": "123 New Lane",
+          "address2": "Apt 4B",
+          "city": "Raleigh",
+          "state": "NC",
+          "country": "USA",
+          "zip": "27601"
+        }
+      }
+    ],
+    "ogt": []
+  },
+  {
+    "q": "My name is Noah Wilson and my email is noah.wilson7285@example.com. I just realized I ordered the wrong item and need to cancel order #W5386730 immediately. Please cancel it for me.",
+    "agt": [
+      {
+        "name": "find_user_id_by_email",
+        "arguments": {
+          "email": "noah.wilson7285@example.com",
+          "user_id": "noah_wilson_6623"
+        }
+      },
+      {
+        "name": "get_user_details",
+        "arguments": {
+          "user_id": "noah_wilson_6623"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "arguments": {
+          "order_id": "#W5386730",
+          "user_id": "noah_wilson_6623"
+        }
+      }
+    ],
+    "ogt": []
+  }
+]

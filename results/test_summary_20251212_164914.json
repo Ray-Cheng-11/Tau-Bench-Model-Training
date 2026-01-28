@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "total_tasks": 10,
+    "successful_tasks": 7,
+    "success_rate": 0.7,
+    "exact_action_matches": 2,
+    "exact_match_rate": 0.2,
+    "total_warnings": 5,
+    "total_errors": 0
+  },
+  "core_metrics": {
+    "average_action_precision": 0.8666666666666666,
+    "average_action_recall": 0.7583333333333333,
+    "average_action_f1": 0.7690476190476191,
+    "average_output_match_rate": 0.3554555565117426
+  },
+  "metrics": {
+    "average_quality_score": 0.7602006894131297,
+    "average_sequence_quality": 0.7198333333333332,
+    "average_efficiency_score": 0.9999902260303498,
+    "quality_rating_distribution": {
+      "Good": 5,
+      "Fair": 3,
+      "Poor": 1,
+      "Excellent": 1
+    }
+  },
+  "timing": {
+    "average_total_time": 8.012457990646363,
+    "average_model_time": 8.01221239566803,
+    "average_tool_time": 0.00012290477752685547,
+    "total_time_percentiles": {
+      "p50": 7.2476277351379395,
+      "p90": 17.903995752334595,
+      "p99": 17.903995752334595
+    },
+    "model_time_percentiles": {
+      "p50": 7.247466087341309,
+      "p90": 17.90364098548889,
+      "p99": 17.90364098548889
+    }
+  },
+  "error_analysis": {
+    "unique_warnings": [
+      "Missing 2 expected actions (recall: 33.3%)",
+      "Missing 1 expected actions (recall: 66.7%)",
+      "Action sequence shows suboptimal logical flow",
+      "Missing 2 expected actions (recall: 50.0%)",
+      "Missing 3 expected actions (recall: 33.3%)"
+    ],
+    "unique_errors": [],
+    "most_common_warnings": [
+      [
+        "Missing 1 expected actions (recall: 66.7%)",
+        1
+      ],
+      [
+        "Missing 2 expected actions (recall: 33.3%)",
+        1
+      ],
+      [
+        "Missing 3 expected actions (recall: 33.3%)",
+        1
+      ],
+      [
+        "Action sequence shows suboptimal logical flow",
+        1
+      ],
+      [
+        "Missing 2 expected actions (recall: 50.0%)",
+        1
+      ]
+    ],
+    "most_common_errors": []
+  }
+}

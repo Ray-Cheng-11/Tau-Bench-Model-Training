@@ -1,0 +1,81 @@
+{
+  "summary": {
+    "total_tasks": 100,
+    "successful_tasks": 77,
+    "success_rate": 0.77,
+    "exact_action_matches": 27,
+    "exact_match_rate": 0.27,
+    "total_warnings": 85,
+    "total_errors": 0
+  },
+  "metrics": {
+    "average_action_precision": 0.8403333333333333,
+    "average_action_recall": 0.7354999999999999,
+    "average_action_f1": 0.7550714285714285,
+    "average_output_match_rate": 0.32
+  },
+  "timing": {
+    "average_total_time": 9.394598846435548,
+    "average_model_time": 9.39432626247406,
+    "average_tool_time": 0.00018276214599609374,
+    "total_time_percentiles": {
+      "p50": 8.421455144882202,
+      "p90": 15.448905229568481,
+      "p99": 31.402363538742065
+    },
+    "model_time_percentiles": {
+      "p50": 8.421046733856201,
+      "p90": 15.448696851730347,
+      "p99": 31.402183532714844
+    }
+  },
+  "error_analysis": {
+    "unique_warnings": [
+      "Missing expected actions: ['cancel_pending_order', 'modify_user_address']",
+      "Unexpected actions: ['get_user_details<|channel|>commentary']",
+      "Missing expected actions: ['modify_user_address']",
+      "Missing expected actions: ['get_user_details', 'get_order_details', 'cancel_pending_order', 'modify_user_address']",
+      "Missing expected actions: ['get_user_details', 'cancel_pending_order', 'modify_user_address']",
+      "Missing expected actions: ['get_order_details', 'modify_user_address']",
+      "Missing expected actions: ['modify_pending_order_address', 'find_user_id_by_email']",
+      "Missing expected actions: ['get_user_details', 'modify_user_address']",
+      "Missing expected actions: ['modify_user_address', 'find_user_id_by_email']",
+      "Unexpected actions: ['get_user_details', 'cancel_pending_order']",
+      "Missing expected actions: ['get_user_details']",
+      "Missing expected actions: ['get_user_details', 'find_user_id_by_email']",
+      "Unexpected actions: ['cancel_pending_order']",
+      "Unexpected actions: ['get_order_details']",
+      "Missing expected actions: ['get_user_details', 'modify_user_address', 'find_user_id_by_email']",
+      "Unexpected actions: ['get_order_details', 'get_user_details']",
+      "Missing expected actions: ['cancel_pending_order']",
+      "Unexpected actions: ['get_user_details']",
+      "Missing expected actions: ['get_order_details', 'get_user_details', 'transfer_to_human_agents']",
+      "Unexpected actions: ['transfer_to_human_agents']",
+      "Missing expected actions: ['get_order_details', 'get_user_details', 'modify_user_address']"
+    ],
+    "unique_errors": [],
+    "most_common_warnings": [
+      [
+        "Unexpected actions: ['get_user_details']",
+        13
+      ],
+      [
+        "Missing expected actions: ['modify_user_address']",
+        13
+      ],
+      [
+        "Missing expected actions: ['get_user_details', 'modify_user_address']",
+        8
+      ],
+      [
+        "Unexpected actions: ['transfer_to_human_agents']",
+        8
+      ],
+      [
+        "Missing expected actions: ['get_user_details']",
+        8
+      ]
+    ],
+    "most_common_errors": []
+  }
+}

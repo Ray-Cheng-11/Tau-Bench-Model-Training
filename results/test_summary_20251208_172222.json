@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "total_tasks": 3,
+    "successful_tasks": 3,
+    "success_rate": 1.0,
+    "exact_action_matches": 0,
+    "exact_match_rate": 0.0,
+    "total_warnings": 1,
+    "total_errors": 0
+  },
+  "core_metrics": {
+    "average_action_precision": 0.8888888888888888,
+    "average_action_recall": 0.8888888888888888,
+    "average_action_f1": 0.8666666666666667,
+    "average_output_match_rate": 0.334929008395417
+  },
+  "metrics": {
+    "average_quality_score": 0.8077939534054611,
+    "average_sequence_quality": 0.7877777777777778,
+    "average_efficiency_score": 0.9999904659059312,
+    "quality_rating_distribution": {
+      "Good": 3
+    }
+  },
+  "timing": {
+    "average_total_time": 5.468871593475342,
+    "average_model_time": 5.468668222427368,
+    "average_tool_time": 0.00013136863708496094,
+    "total_time_percentiles": {
+      "p50": 5.2744269371032715,
+      "p90": 6.675288915634155,
+      "p99": 6.675288915634155
+    },
+    "model_time_percentiles": {
+      "p50": 5.27425479888916,
+      "p90": 6.67517352104187,
+      "p99": 6.67517352104187
+    }
+  },
+  "error_analysis": {
+    "unique_warnings": [
+      "Missing 1 expected actions (recall: 66.7%)"
+    ],
+    "unique_errors": [],
+    "most_common_warnings": [
+      [
+        "Missing 1 expected actions (recall: 66.7%)",
+        1
+      ]
+    ],
+    "most_common_errors": []
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "summary": {
+    "total_tasks_processed": 10
+  },
+  "by_action_count": {
+    "2": {
+      "total": 4,
+      "failure_count": 2,
+      "failure_rate": 0.5,
+      "non_exact_match_count": 3,
+      "non_exact_match_rate": 0.75
+    },
+    "3": {
+      "total": 4,
+      "failure_count": 1,
+      "failure_rate": 0.25,
+      "non_exact_match_count": 4,
+      "non_exact_match_rate": 1.0
+    },
+    "4": {
+      "total": 2,
+      "failure_count": 1,
+      "failure_rate": 0.5,
+      "non_exact_match_count": 2,
+      "non_exact_match_rate": 1.0
+    }
+  },
+  "by_read_write_mix": {
+    "r1_w1": {
+      "total": 3,
+      "failure_count": 2,
+      "failure_rate": 0.6666666666666666,
+      "non_exact_match_count": 3,
+      "non_exact_match_rate": 1.0
+    },
+    "r1_w2": {
+      "total": 3,
+      "failure_count": 1,
+      "failure_rate": 0.3333333333333333,
+      "non_exact_match_count": 3,
+      "non_exact_match_rate": 1.0
+    },
+    "r2_w0": {
+      "total": 1,
+      "failure_count": 0,
+      "failure_rate": 0.0,
+      "non_exact_match_count": 0,
+      "non_exact_match_rate": 0.0
+    },
+    "r2_w2": {
+      "total": 2,
+      "failure_count": 1,
+      "failure_rate": 0.5,
+      "non_exact_match_count": 2,
+      "non_exact_match_rate": 1.0
+    },
+    "r3_w0": {
+      "total": 1,
+      "failure_count": 0,
+      "failure_rate": 0.0,
+      "non_exact_match_count": 1,
+      "non_exact_match_rate": 1.0
+    }
+  },
+  "expected_action_distribution": {
+    "summary_count": 9,
+    "groups": [
+      {
+        "expected_action_sequence": "find_user_id_by_email -> get_user_details -> cancel_pending_order -> modify_pending_order_payment",
+        "total": 1,
+        "failed": 1,
+        "non_exact_match": 1,
+        "failure_rate": 1.0,
+        "non_exact_match_rate": 1.0,
+        "sample_task_ids": [
+          "task_002"
+        ]
+      },
+      {
+        "expected_action_sequence": "find_user_id_by_email -> modify_pending_order_address -> exchange_delivered_order_items",
+        "total": 1,
+        "failed": 1,
+        "non_exact_match": 1,
+        "failure_rate": 1.0,
+        "non_exact_match_rate": 1.0,
+        "sample_task_ids": [
+          "task_003"
+        ]
+      },
+      {
+        "expected_action_sequence": "find_user_id_by_email -> return_delivered_order_items",
+        "total": 2,
+        "failed": 1,
+        "non_exact_match": 2,
+        "failure_rate": 0.5,
+        "non_exact_match_rate": 1.0,
+        "sample_task_ids": [
+          "task_004"
+        ]
+      },
+      {
+        "expected_action_sequence": "find_user_id_by_email -> cancel_pending_order",
+        "total": 1,
+        "failed": 1,
+        "non_exact_match": 1,
+        "failure_rate": 1.0,
+        "non_exact_match_rate": 1.0,
+        "sample_task_ids": [
+          "task_008"
+        ]
+      },
+      {
+        "expected_action_sequence": "find_user_id_by_email -> get_user_details -> modify_pending_order_items -> transfer_to_human_agents",
+        "total": 1,
+        "failed": 0,
+        "non_exact_match": 1,
+        "failure_rate": 0.0,
+        "non_exact_match_rate": 1.0,
+        "sample_task_ids": []
+      },
+      {
+        "expected_action_sequence": "find_user_id_by_email -> modify_pending_order_address -> modify_pending_order_address",
+        "total": 1,
+        "failed": 0,
+        "non_exact_match": 1,
+        "failure_rate": 0.0,
+        "non_exact_match_rate": 1.0,
+        "sample_task_ids": []
+      },
+      {
+        "expected_action_sequence": "find_user_id_by_email -> get_user_details -> get_order_details",
+        "total": 1,
+        "failed": 0,
+        "non_exact_match": 1,
+        "failure_rate": 0.0,
+        "non_exact_match_rate": 1.0,
+        "sample_task_ids": []
+      },
+      {
+        "expected_action_sequence": "find_user_id_by_email -> modify_pending_order_items -> modify_pending_order_payment",
+        "total": 1,
+        "failed": 0,
+        "non_exact_match": 1,
+        "failure_rate": 0.0,
+        "non_exact_match_rate": 1.0,
+        "sample_task_ids": []
+      },
+      {
+        "expected_action_sequence": "find_user_id_by_email -> get_order_details",
+        "total": 1,
+        "failed": 0,
+        "non_exact_match": 0,
+        "failure_rate": 0.0,
+        "non_exact_match_rate": 0.0,
+        "sample_task_ids": []
+      }
+    ]
+  }
+}

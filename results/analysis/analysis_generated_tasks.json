@@ -1,0 +1,1158 @@
+{
+  "per_task": [
+    {
+      "q": "Hi, I'm Evelyn Gonzalez (email: evelyn.gonzalez7152@example.com). I just moved and need to update my default shipping address to:\n\nAddress1: 123 Maple Street\nAddress2: Apt 5B\nCity: Brooklyn\nState: NY\n",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Daiki Khan (daiki.khan2146@example.com). Could you give me a quick summary of all my recent orders? Also, I just moved and need to update my default shipping address to 789 Pine Street, Apt 12",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Aarav Santos (zip 76134). I just moved and need to update my default shipping address to 123 New Street, Apt 12, Fort Worth, TX, 76134, USA. Could you please make the change and confirm my new",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Aarav Davis (email: aarav.davis2239@example.com). I'm in a bit of a hurry and need to know the current status of my order #W6552785. Also, I realized my address has a typo; please update my de",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Liam Muller. I just realized I ordered the wrong thing – order #W9486384 – and I need to cancel it right away. Also, I've moved and want to update my default shipping address to 123 New Street",
+      "action_count": 5,
+      "read_actions": 3,
+      "write_actions": 2,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "cancel_pending_order",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Yara Santos. I just moved and need to update my default shipping address to 123 Oak Street, Apt 5B, Los Angeles, CA 90012. Also, I have an order #W6371438 that I placed yesterday and I realize",
+      "action_count": 5,
+      "read_actions": 3,
+      "write_actions": 2,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address",
+        "get_order_details",
+        "cancel_pending_order"
+      ]
+    },
+    {
+      "q": "Hello, I'm Juan Brown. I just moved and need to update my default shipping address: the zip code should be 75201 instead of 75347. Also, I have an order #W3611574 that I realized I ordered by mistake ",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Emma Kim (email: emma.kim7876@example.com). I need to update my default shipping address to 123 Maple Street, Apt 4B, Indianapolis, IN, USA, 46220. Also, could you tell me the current status o",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Ava Kovacs (email: ava.kovacs8119@example.com). I realized I mistakenly ordered #W2818151 and want to cancel it. Also, please change my default shipping address to:\nAddress1: 500 New Ave\nAddre",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Sophia Garcia (sophia.garcia1495@example.com). I realized I ordered the wrong thing in order #W5777276 and need to cancel it right away. Also, I've moved and want to update my default shipping",
+      "action_count": 5,
+      "read_actions": 3,
+      "write_actions": 2,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "cancel_pending_order",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Isabella Santos (isabella.santos9317@example.com). I just moved and need to change my default shipping address to 123 Maple Avenue, Apt 4B, New York, NY, 10001, USA. Also, could you please con",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Daiki Johnson. I just realized I moved and need to update my default shipping address. Also, could you tell me which orders are currently on file for me? I think I need to cancel order #W95021",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Aarav Santos (email: aarav.santos2789@example.com). I just moved and need to update my default shipping address for future orders. Please change it to:\nAddress1: 123 New Way\nAddress2: Apt 5\nCi",
+      "action_count": 1,
+      "read_actions": 1,
+      "write_actions": 0,
+      "action_names": [
+        "find_user_id_by_email"
+      ]
+    },
+    {
+      "q": "Hi, this is Sofia Garcia (sofia.garcia6175@example.com). I just moved and need my default shipping address updated to: 123 Ocean Blvd, Apt 9, Miami, FL, USA, 33101. Please make the change right away.",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Liam. I just moved and need to change my default shipping address to 123 New St, Apt 5, San Francisco, CA 94121. Also, could you remind me what email you have on file and list my payment metho",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address",
+        "get_order_details"
+      ]
+    },
+    {
+      "q": "Hello, I’m Lei Patel. Could you please update my default shipping address to the new one below? Also, I’d like to know the current status of my recent order #W4172216. Thank you!",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "I am Chen Moore. My email is chen.moore4507@example.com. I need to know the status of my order #W9205196 and cancel it if it's still pending. Also, I've just moved and want to change my default shippi",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hello, I'm Ethan Muller (email: ethan.muller6617@example.com). Could you please tell me what my current default shipping address is? I just moved and need to update it to a new address: 123 New Lane, ",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Emma Nguyen (email: emma.nguyen8892@example.com). I just moved and need to update my default shipping address to 200 Pine Avenue, Apt 12, Denver, CO, 80222, USA. Also, could you tell me what p",
+      "action_count": 2,
+      "read_actions": 2,
+      "write_actions": 0,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details"
+      ]
+    },
+    {
+      "q": "Hello, I'm Fatima Anderson (email: fatima.anderson1082@example.com). I just moved and need to change my default shipping address to:\n\naddress1: 123 New Street\naddress2: Apt 5B\ncity: Austin\nstate: TX\nc",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hey, I need you to CANCEL my order #W3955289 right now—I'm done waiting! Also, could you please update my address to 123 New St, Apt 5, Denver, CO, USA, 80238? I'm usually polite about address changes",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, this is Mia Sanchez. I just realized I ordered the wrong thing and need to cancel my order #W4096800 immediately. My email is mia.sanchez1556@example.com. Please cancel it because it was ordered b",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "cancel_pending_order"
+      ]
+    },
+    {
+      "q": "I need to change my shipping address right now because I entered it wrong. My email is aarav.nguyen9723@example.com. Please update my default address to: 123 New Lane, Apt 5B, Columbus, OH, USA, 43210",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Anya Lee (anya.lee3013@example.com). I need to change my default shipping address to 123 New St, Apt 5, Austin, TX 78701, USA, zip 78701. Also, could you tell me the current status of my order",
+      "action_count": 3,
+      "read_actions": 3,
+      "write_actions": 0,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details"
+      ]
+    },
+    {
+      "q": "Hi, I'm Olivia Smith (olivia.smith9793@example.com). I just moved and need to update my default shipping address to a new one. Also, could you quickly tell me which orders I currently have? I'm in a b",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Aarav Ito (aarav.ito1554@example.com). I'd like to update my default shipping address to 123 New Avenue, Apt 12B, San Diego, CA, USA, 92101. Also, could you tell me how much balance I have on ",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Harper Ahmed. I just moved and need to update my default shipping address to:\n\naddress1: 123 Oak Lane\naddress2: Apt 12\ncity: Philadelphia\nstate: PA\nzip: 19104\ncountry: USA\n\nAlso, could you let",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Ethan Li. I just moved and need to update my default shipping address to 123 New Lane, Apt 4B, Columbus, OH, USA, 43210. Also, can you tell me the status of my order #W4108782? If it's still p",
+      "action_count": 4,
+      "read_actions": 2,
+      "write_actions": 2,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address",
+        "get_order_details",
+        "cancel_pending_order"
+      ]
+    },
+    {
+      "q": "Hi, I'm Juan Smith (juan.smith6503@example.com). I just moved and need to update my default shipping address to 500 New Avenue, Apt 12, Austin, TX 78770. Also, I realized I no longer need order #W6484",
+      "action_count": 5,
+      "read_actions": 3,
+      "write_actions": 2,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "cancel_pending_order",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hey, this is Yusuf Hernandez. I just realized I moved and need to update my default shipping address to 123 Oak Street, Apt 4B, Columbus, OH 43215. Also, I have an order #W4817567 that I no longer nee",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Sofia Moore (email: sofia.moore4274@example.com). I just moved and need to update my default shipping address to 123 New Avenue, Apt 5B, Washington, DC, USA, 20001. Also, could you tell me the",
+      "action_count": 5,
+      "read_actions": 3,
+      "write_actions": 2,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address",
+        "get_order_details",
+        "get_order_details",
+        "cancel_pending_order"
+      ]
+    },
+    {
+      "q": "Hi, this is Juan Nguyen (juan.nguyen7877@example.com). I just moved and need my default shipping address updated to: 123 New Way, Apt 5, Phoenix, AZ 85001, USA. Please change it right away.",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Raj Davis. I just realized I moved to a new apartment. My new address is 123 New Street, Apt 4B, Phoenix, AZ 85055. Please update my default shipping address. Also, could you confirm the email",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Olivia Davis (olivia.davis4495@example.com). I just moved and need to update my default shipping address to 123 New St, Apt 5B, Houston, TX, USA, 77002. Please change it now.",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "You are Ava Ahmed, a polite but slightly urgent customer. You recently moved and need to update your default shipping address. First, authenticate using your email ava.ahmed9921@example.com, then ask ",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Liam Patel (email: liam.patel1315@example.com). I'm in a hurry and need to know what shipping address you have on file for me. Also, I want to change it to 123 New St, Apt 4B, Indianapolis, IN",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hello, I'm Emma Silva (email: emma.silva6593@example.com). I just moved and need to update my default shipping address. Could you first tell me what address you have on file, and then change it to: 12",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm James Nguyen (email james.nguyen6448@example.com). I need to update my default shipping address to 123 Oak Street, Apt 5, Columbus, OH 43296. Also, I think I placed an order #W4817420 recently",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Daiki Kim. I just realized my default shipping address on file is outdated. Could you tell me what address you have for me right now, and then update it to the new one below? I'm in a bit of a",
+      "action_count": 2,
+      "read_actions": 2,
+      "write_actions": 0,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details"
+      ]
+    },
+    {
+      "q": "Hi, I'm Noah Patel. I just moved and need to change my default shipping address for my upcoming order #W9784474. Please update it to: 123 Oak Lane, Apt 12B, Los Angeles, CA, USA, zip 90012. I want thi",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hello, I'm Omar Martin (email: omar.martin1276@example.com). I just realized I moved and need to change the shipping address for my recent order #W7028924. Could you please update my default address t",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Omar Hernandez. I just moved and need to update my default shipping address. Could you tell me what address and payment method you have on file for me right now, and then change the address to",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Harper Moore. Could you please tell me the current status of my order #W5964460? Also, I need to update my default shipping address to a new one: 500 New Ave, Apt 5B, Miami, FL, USA, 33101. I'",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Fatima Moore. I need to update the shipping address for my order #W9172475 because I moved last week. The new address should be 1234 Oak Avenue, Apt 9B, Dallas, TX 75201, USA. Also, could you ",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "transfer_to_human_agents"
+      ]
+    },
+    {
+      "q": "Hello, I'm Fatima Anderson (email: fatima.anderson1447@example.com). I just moved and need to update my default shipping address to the following:\n\nAddress1: 123 New Lane\nAddress2: Apt 5B\nCity: Jackso",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hello, I'm Harper Silva (email: harper.silva1192@example.com). I'm moving to a new place and need to update my default shipping address to:\n\nAddress1: 500 Ocean Blvd\nAddress2: Apt 12\nCity: San Diego\nS",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Anya Lee (email: anya.lee3013@example.com). I just moved and need to update my default shipping address ASAP. My new address is: 1240 Oak Street, Apt 12B, Austin, TX, 78701, USA. Please change",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Omar Anderson (omar.anderson7675@example.com). I need to quickly update my default shipping address to 123 New Street, Apt 4B, Philadelphia, PA, 19031, USA. Also, could you tell me what paymen",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Ava Lopez (email: ava.lopez3569@example.com). Could you tell me the current status of my order #W5911003? Also, I need to update my default shipping address to: 123 Ocean Drive, Apt 5B, San Di",
+      "action_count": 3,
+      "read_actions": 3,
+      "write_actions": 0,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details"
+      ]
+    },
+    {
+      "q": "I need to cancel my order #W9958106 right now because I ordered it by mistake! Also update my shipping address to 123 New St, Apt 5, Philadelphia, PA 19019. And tell me how much gift card balance I ha",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Amelia Gonzalez. I just moved and need to update my default shipping address to 1234 Maple Lane, Apt 12B, Boulder, CO, 80301, USA. Also, could you tell me how much is left on my gift card? Las",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Ava Moore (ava.moore2450@example.com). I realized I ordered the wrong item and need to cancel order #W8331214 (reason: ordered by mistake). Also, please update my default shipping address to: ",
+      "action_count": 6,
+      "read_actions": 4,
+      "write_actions": 2,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "cancel_pending_order",
+        "modify_user_address",
+        "get_order_details"
+      ]
+    },
+    {
+      "q": "Hi, I'm Evelyn Patel (email: evelyn.patel2010@example.com). I just moved and need to update my default shipping address. Also, could you remind me which payment methods I have saved? I'm generally pat",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hey, I'm Yusuf Khan. I just realized I ordered the wrong thing on order #W7613749 and want to cancel it right away. My email is yusuf.khan7390@example.com. Please cancel it.",
+      "action_count": 3,
+      "read_actions": 3,
+      "write_actions": 0,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details"
+      ]
+    },
+    {
+      "q": "Hi, I'm Emma Kovacs. I just realized I moved to a new apartment and need to update my default shipping address to 789 Oak Lane, Apt 12, Jacksonville, FL 32255, USA, 32255. Also, could you tell me the ",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hey, it's Juan Sanchez (juan.sanchez3280@example.com). I just realized I ordered the wrong thing and need #W6483628 cancelled immediately. It's a mistake, so please cancel it. I need this done ASAP.",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_order_details",
+        "cancel_pending_order"
+      ]
+    },
+    {
+      "q": "I am Daiki Silva (daiki.silva6295@example.com). I just realized I ordered the wrong items in my recent order #W7999678 and need to cancel it immediately (ordered by mistake). Also, I moved to a new ap",
+      "action_count": 4,
+      "read_actions": 2,
+      "write_actions": 2,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_order_details",
+        "cancel_pending_order",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Ava Hernandez (email: ava.hernandez8232@example.com, zip 46205). Could you tell me what payment methods I have on file? Also, I need to update my default shipping address: change the second li",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Liam Johnson (liam.johnson8037@example.com). I just moved and need to change my default shipping address to: 742 Oak Avenue, Apt 12B, Indianapolis, IN, 46204, USA. Please update it for me.",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Ava Nguyen. I just moved and need to update my default shipping address to the new apartment. My new address is: 1234 Pine Street, Apt 5B, Denver, CO, 80203, USA. Please change it for me.",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hello, I'm Anya Ahmed. I just moved and need to update my default shipping address to: 123 New Avenue, Apt 4B, Brooklyn, NY 11201, USA. Also, I thought I had a pending order #W1514731 that I want to c",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Sofia Lee. I need to update my default shipping address. Could you first show me the address we have on file, and then change it to 200 Oak Avenue, Apt 12B, Los Angeles, CA, USA, 91401? Please",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hello, I'm Noah Garcia (email: noah.garcia9427@example.com). My default shipping address is no longer correct. Could you please change it to 123 New Ave, Apt 5B, Los Angeles, CA, 90012, USA? Also, cou",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Mason Brown. I just moved and need to update my default shipping address to 123 Oak Street, Apt 4B, Columbus, OH, USA, 43215. After that, could you please confirm the payment methods I have on",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address",
+        "get_user_details"
+      ]
+    },
+    {
+      "q": "Hi, I'm Omar Johnson. I need to quickly check what orders I have on file and also update my default shipping address because I just moved. My new address should be: 123 New Horizon Blvd, Apt 4B, Miami",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I’m Harper Brown (harper.brown3965@example.com). I just moved and need to change my default shipping address to 123 New Street, Apt 4B, Dallas, TX 75201, USA. Also, could you tell me what orders I",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "I’m Liam Santos (liam.santos7226@example.com). I just realized I ordered the wrong thing and need to cancel order #W4011814 immediately. Please cancel it for me – it was ordered by mistake.",
+      "action_count": 3,
+      "read_actions": 3,
+      "write_actions": 0,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details"
+      ]
+    },
+    {
+      "q": "Hi, I'm Fatima Smith (email: fatima.smith9435@example.com). I just moved and need to update my default shipping address to 123 New Lane, Apt 4B, Philadelphia, PA, USA, 19133. Also, could you tell me w",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hello, this is Anya Garcia (email: anya.garcia2061@example.com). I just moved and need to update my default shipping address to the new apartment. Please change my address to:\nAddress1: 742 Evergreen ",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Aarav Nguyen. I need to check what address you have on file for me and see the orders linked to my account. Also, I'm moving to a new apartment and want to update my default shipping address t",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hello, I'm Omar Hernandez. I just realized I need to change my default shipping address before my next order arrives. My current address is 998 Sunset Drive, Suite 385, Fort Worth, TX 76185, but I hav",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Lei Patel. I just realized my default shipping address is outdated and I need it changed to a new one. Also, could you tell me the current status of my order #W4172216? I'm a bit pressed for t",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Anya Taylor (anya.taylor7813@example.com). I just moved and need my default shipping address changed to 500 New Horizon Blvd, Apt 12B, Brooklyn, NY, USA, 11201. Also, could you let me know how",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Amelia Nguyen. I just realized my default shipping address is outdated. Could you please update it to 123 New St, Apt 4B, San Francisco, CA 94107? My email is amelia.nguyen3376@example.com. I'",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Mei Johansson. I need to verify my current default shipping address and then update it because I've moved to a new apartment. My new address should be: 500 Oak Lane, Apt 12B, Washington, DC, U",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Daiki Moore (daiki.moore4201@example.com). I just moved and need to update my default shipping address. Please change it to: 123 New Horizon Blvd, Apt 12, Raleigh, NC, 27601, USA. I want this ",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hey, this is Ava Sanchez. I'm in a rush, so could you please change my default shipping address to 123 Maple Ave, Apt 9B, Brooklyn, NY 11201, USA? While you're at it, let me know which payment methods",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Lei Gonzalez (lei.gonzalez2684@example.com). I just moved and need to update my default shipping address to 123 New Street, Apt 4B, Los Angeles, CA, 90001, USA. Also, can you tell me the curre",
+      "action_count": 4,
+      "read_actions": 4,
+      "write_actions": 0,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "get_order_details"
+      ]
+    },
+    {
+      "q": "Hi, this is Olivia Smith. My email is olivia.smith9157@example.com. I need you to cancel order #W1348609 right now because I changed my mind, and also update my default shipping address to: 1234 New L",
+      "action_count": 3,
+      "read_actions": 3,
+      "write_actions": 0,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details"
+      ]
+    },
+    {
+      "q": "You are Mia Rossi (email: mia.rossi3684@example.com) living at 680 Cedar Avenue, Suite 884, Columbus, OH 43274, USA. You just realized you have moved to a new apartment at 123 Oak Street, Apt 5B, Colu",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Omar Lopez (email: omar.lopez9490@example.com, zip: 92185). I realized my default shipping address is incorrect. Please change it to: address1: \"123 New Ave\", address2: \"Suite 5\", city: \"San D",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address",
+        "get_order_details"
+      ]
+    },
+    {
+      "q": "Hi, I'm Mohamed Lee. I just realized I moved to a new apartment. My new address is 123 Oak Street, Apt 5B, Dallas, TX 75201. Could you please update my default shipping address to this new one? Also, ",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Daiki Silva (email: daiki.silva5143@example.com). I need to update my default shipping address because I'm moving. Please change it to:\nAddress1: 123 New Way\nAddress2: Apt 12\nCity: San Francis",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Anya Kim (email: anya.kim9008@example.com). Could you please tell me what shipping address you have on file for me and which payment methods are linked to my account? I also need to change my ",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Isabella Johnson (isabella.johnson5435@example.com). I just moved and need to update my default shipping address to 123 Oak Street, Apt 4B, Seattle, WA, USA, 98101. Please make this change and",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "I am Mohamed Jackson (mohamed.jackson7203@example.com). I need you to exchange the Water Bottle from order #W4817420 for a red one right now—this blue bottle is terrible. Do it immediately.",
+      "action_count": 3,
+      "read_actions": 3,
+      "write_actions": 0,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details"
+      ]
+    },
+    {
+      "q": "I am Ethan Moore (email: ethan.moore4109@example.com). I need to know the current status of my order #W6026015 because I haven't received any update. Also, I just moved and want to change my default s",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I’m Mohamed Smith (email: mohamed.smith3152@example.com). I just moved and need to update my default shipping address to 123 New Lane, Apt 9, Houston, TX, USA, 77001. Also, could you tell me the c",
+      "action_count": 5,
+      "read_actions": 4,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, this is Daiki Moore. I just moved to a new place and need to update my default shipping address. My new address is: 789 Oak Avenue, Apt 12B, Austin, TX, USA, 78701. Please make the change.",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Lei Li. I just moved and need to update my default shipping address to my new apartment. Could you also confirm what address we currently have on file and list my saved payment methods? I'm po",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hey, this is Harper Lee. I need you to cancel order #W8584917 right now because I ordered it by mistake. Also, update my default shipping address to 123 New Lane, Apt 4B, Dallas, TX 75201. My email is",
+      "action_count": 4,
+      "read_actions": 2,
+      "write_actions": 2,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_order_details",
+        "cancel_pending_order",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm James Lee. Could you please tell me what my current default shipping address is? I just moved and need to update it to 123 Oak Avenue, Apt 5B, Columbus, OH, 43215, USA. My email is james.lee72",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Aarav Garcia. I need to cancel my pending order #W3038897 because I ordered it by mistake. Also, please change the shipping address for my other pending order #W7821216 to 123 New Ave, Apt 5, ",
+      "action_count": 5,
+      "read_actions": 3,
+      "write_actions": 2,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_order_details",
+        "cancel_pending_order",
+        "get_order_details",
+        "modify_pending_order_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Harper Kim (harper.kim7658@example.com). I'm in a bit of a rush—could you tell me what my current default shipping address is and the status of my order #W2470317? Also, I need to change my de",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hello, I'm Sofia Moore (email: sofia.moore4274@example.com). I just moved and need to update my default shipping address to: 250 Maple Avenue, Apt 12B, Washington, DC, USA, 20032. Also, could you let ",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Liam Thomas (liam.thomas4271@example.com). I just moved and need to update my default shipping address to 123 New Street, Apt 4B, Washington, DC 20001, USA. Could you also confirm the email yo",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Noah Li. I just moved and need to update my default shipping address to 123 New Street, Apt 5, Philadelphia, PA 19103, USA. Also, can you tell me the status of my recent order #W8553554? I'm i",
+      "action_count": 4,
+      "read_actions": 3,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Mia Johansson (email: mia.johansson6766@example.com). I just moved and need to update my default shipping address to 123 New Lane, Apt 5B, Austin, TX 78701, USA. Also, could you remind me what",
+      "action_count": 3,
+      "read_actions": 2,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "Hi, I'm Aarav Wilson (email: aarav.wilson8531@example.com). I just moved and need to update my default shipping address to the new one: 123 New Lane, Apt 4B, Raleigh, NC, USA, 27601. Please make this ",
+      "action_count": 2,
+      "read_actions": 1,
+      "write_actions": 1,
+      "action_names": [
+        "find_user_id_by_email",
+        "modify_user_address"
+      ]
+    },
+    {
+      "q": "My name is Noah Wilson and my email is noah.wilson7285@example.com. I just realized I ordered the wrong item and need to cancel order #W5386730 immediately. Please cancel it for me.",
+      "action_count": 3,
+      "read_actions": 3,
+      "write_actions": 0,
+      "action_names": [
+        "find_user_id_by_email",
+        "get_user_details",
+        "get_order_details"
+      ]
+    }
+  ],
+  "aggregate": {
+    "total_tasks": 100,
+    "total_actions": 318,
+    "actions_by_name": {
+      "find_user_id_by_email": 100,
+      "get_order_details": 46,
+      "modify_user_address": 85,
+      "get_user_details": 73,
+      "cancel_pending_order": 12,
+      "transfer_to_human_agents": 1,
+      "modify_pending_order_address": 1
+    },
+    "tasks_by_action_count": {
+      "3": 52,
+      "5": 7,
+      "4": 21,
+      "1": 1,
+      "2": 18,
+      "6": 1
+    },
+    "tasks_by_read_write_mix": {
+      "r2_w1": 45,
+      "r3_w2": 6,
+      "r3_w1": 17,
+      "r1_w0": 1,
+      "r1_w1": 16,
+      "r2_w0": 2,
+      "r3_w0": 7,
+      "r2_w2": 3,
+      "r4_w2": 1,
+      "r4_w0": 1,
+      "r4_w1": 1
+    },
+    "distinct_actions": 7,
+    "action_entropy": 2.1551960328482083
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "timestamp": "2025-12-12T08:38:18.662584+00:00",
+  "num_tasks_requested": 10,
+  "direct_out": "C:\\Users\\ray3_cheng\\Desktop\\APIGen-MT-5k\\generated_tasks\\test_direct.json",
+  "agent_out": "C:\\Users\\ray3_cheng\\Desktop\\APIGen-MT-5k\\generated_tasks\\test_agentflow.json",
+  "direct_summary": {
+    "count": 10,
+    "format_valid_count": 10,
+    "format_valid_fraction": 1.0,
+    "user_id_consistent_count": 10,
+    "user_id_consistent_fraction": 1.0,
+    "avg_actions": 3.0,
+    "median_actions": 3,
+    "avg_outputs": 1.0,
+    "validator_valid_count": 10,
+    "validator_reports_sample": [
+      {
+        "valid": true,
+        "missing": []
+      },
+      {
+        "valid": true,
+        "missing": []
+      },
+      {
+        "valid": true,
+        "missing": []
+      },
+      {
+        "valid": true,
+        "missing": []
+      },
+      {
+        "valid": true,
+        "missing": []
+      }
+    ],
+    "real_data_reference": {
+      "total_actions": 30,
+      "total_id_references": 41,
+      "valid_references": 41,
+      "invalid_references": 0,
+      "reference_ratio": 100.0,
+      "order_user_checks": 12,
+      "valid_order_user_associations": 12,
+      "invalid_order_user_associations": 0,
+      "order_user_match_ratio": 100.0,
+      "details": {
+        "user_id": {
+          "total": 29,
+          "valid": 29,
+          "invalid": 0,
+          "valid_ratio": 100.0,
+          "invalid_samples": []
+        },
+        "order_id": {
+          "total": 12,
+          "valid": 12,
+          "invalid": 0,
+          "valid_ratio": 100.0,
+          "invalid_samples": []
+        },
+        "product_id": {
+          "total": 0,
+          "valid": 0,
+          "invalid": 0,
+          "valid_ratio": 0.0,
+          "invalid_samples": []
+        },
+        "order_user_association": {
+          "total_checks": 12,
+          "valid": 12,
+          "invalid": 0,
+          "valid_ratio": 100.0,
+          "invalid_samples": []
+        }
+      }
+    }
+  },
+  "agent_summary": {
+    "count": 10,
+    "format_valid_count": 10,
+    "format_valid_fraction": 1.0,
+    "user_id_consistent_count": 10,
+    "user_id_consistent_fraction": 1.0,
+    "avg_actions": 3.9,
+    "median_actions": 4,
+    "avg_outputs": 1.0,
+    "validator_valid_count": 10,
+    "validator_reports_sample": [
+      {
+        "valid": true,
+        "missing": []
+      },
+      {
+        "valid": true,
+        "missing": []
+      },
+      {
+        "valid": true,
+        "missing": []
+      },
+      {
+        "valid": true,
+        "missing": []
+      },
+      {
+        "valid": true,
+        "missing": []
+      }
+    ],
+    "real_data_reference": {
+      "total_actions": 39,
+      "total_id_references": 62,
+      "valid_references": 62,
+      "invalid_references": 0,
+      "reference_ratio": 100.0,
+      "order_user_checks": 23,
+      "valid_order_user_associations": 23,
+      "invalid_order_user_associations": 0,
+      "order_user_match_ratio": 100.0,
+      "details": {
+        "user_id": {
+          "total": 39,
+          "valid": 39,
+          "invalid": 0,
+          "valid_ratio": 100.0,
+          "invalid_samples": []
+        },
+        "order_id": {
+          "total": 23,
+          "valid": 23,
+          "invalid": 0,
+          "valid_ratio": 100.0,
+          "invalid_samples": []
+        },
+        "product_id": {
+          "total": 0,
+          "valid": 0,
+          "invalid": 0,
+          "valid_ratio": 0.0,
+          "invalid_samples": []
+        },
+        "order_user_association": {
+          "total_checks": 23,
+          "valid": 23,
+          "invalid": 0,
+          "valid_ratio": 100.0,
+          "invalid_samples": []
+        }
+      }
+    }
+  }
+}

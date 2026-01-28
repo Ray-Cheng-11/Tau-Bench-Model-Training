@@ -1,0 +1,91 @@
+{
+  "summary": {
+    "total_tasks": 98,
+    "successful_tasks": 84,
+    "success_rate": 0.8571428571428571,
+    "exact_action_matches": 27,
+    "exact_match_rate": 0.2755102040816326,
+    "total_warnings": 79,
+    "total_errors": 0
+  },
+  "metrics": {
+    "average_action_precision": 0.6066326530612245,
+    "average_action_recall": 0.732312925170068,
+    "average_action_f1": 0.5398636510881409,
+    "average_output_match_rate": 0.6122448979591837
+  },
+  "timing": {
+    "average_total_time": 13.589433587327296,
+    "average_model_time": 13.588883638381958,
+    "average_tool_time": 0.0004625466405128946,
+    "total_time_percentiles": {
+      "p50": 11.962440967559814,
+      "p90": 23.517510652542114,
+      "p99": 53.764649868011475
+    },
+    "model_time_percentiles": {
+      "p50": 11.961729526519775,
+      "p90": 23.51692533493042,
+      "p99": 53.763744831085205
+    }
+  },
+  "error_analysis": {
+    "unique_warnings": [
+      "Missing expected actions: ['get_user_details', 'modify_user_address']",
+      "Unexpected actions: ['find_user_id_by_name_zip']",
+      "Unexpected actions: ['cancel_pending_order', 'return_delivered_order_items']",
+      "Unexpected actions: ['get_order_details']",
+      "Missing expected actions: ['return_delivered_order_items']",
+      "Missing expected actions: ['modify_user_address', 'find_user_id_by_email']",
+      "Missing expected actions: ['find_user_id_by_email', 'cancel_pending_order', 'modify_pending_order_address']",
+      "Missing expected actions: ['find_user_id_by_email', 'modify_pending_order_address']",
+      "Missing expected actions: ['cancel_pending_order']",
+      "Missing expected actions: ['modify_user_address', 'find_user_id_by_email', 'cancel_pending_order']",
+      "Missing expected actions: ['find_user_id_by_email']",
+      "Unexpected actions: ['cancel_pending_order', 'modify_user_address']",
+      "Unexpected actions: ['get_user_details']",
+      "Missing expected actions: ['cancel_pending_order', 'modify_user_address', 'get_order_details']",
+      "Unexpected actions: ['find_user_id_by_email']",
+      "Missing expected actions: ['cancel_pending_order', 'modify_user_address', 'find_user_id_by_email', 'get_order_details']",
+      "Missing expected actions: ['modify_user_address', 'get_order_details', 'get_user_details', 'cancel_pending_order']",
+      "Unexpected actions: ['get_order_details<|channel|>commentary']",
+      "Missing expected actions: ['find_user_id_by_email', 'modify_user_address']",
+      "Missing expected actions: ['get_order_details', 'cancel_pending_order']",
+      "Missing expected actions: ['cancel_pending_order', 'modify_pending_order_address']",
+      "Missing expected actions: ['modify_pending_order_address']",
+      "Missing expected actions: ['modify_user_address', 'cancel_pending_order']",
+      "Missing expected actions: ['get_user_details']",
+      "Missing expected actions: ['modify_user_address']",
+      "Missing expected actions: ['get_order_details', 'cancel_pending_order', 'get_user_details', 'return_delivered_order_items', 'modify_pending_order_address']",
+      "Unexpected actions: ['get_user_details<|channel|>commentary']",
+      "Unexpected actions: ['get_user_details', 'get_order_details']",
+      "Missing expected actions: ['get_order_details', 'get_user_details', 'cancel_pending_order', 'modify_pending_order_address']",
+      "Missing expected actions: ['modify_user_address', 'cancel_pending_order', 'return_delivered_order_items']",
+      "Unexpected actions: ['transfer_to_human_agents']"
+    ],
+    "unique_errors": [],
+    "most_common_warnings": [
+      [
+        "Unexpected actions: ['get_user_details']",
+        22
+      ],
+      [
+        "Missing expected actions: ['cancel_pending_order']",
+        13
+      ],
+      [
+        "Unexpected actions: ['find_user_id_by_email']",
+        5
+      ],
+      [
+        "Unexpected actions: ['transfer_to_human_agents']",
+        4
+      ],
+      [
+        "Missing expected actions: ['modify_user_address']",
+        3
+      ]
+    ],
+    "most_common_errors": []
+  }
+}
