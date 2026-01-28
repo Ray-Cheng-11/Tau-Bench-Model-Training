@@ -138,8 +138,7 @@ APIGen-MT-5k/
 ├── 模型測試指南.md              # 模型測試部署指南
 ├── AGENTFLOW_README.md        # AgentFlow 詳細文檔
 ├── Compare_agentflow_direct.md # 方法對比分析
-├── SUMMARY.md                  # 專案摘要
-└── TRAINING_COMPARISON.txt     # 訓練方法對比
+└──  SUMMARY.md                  # 專案摘要
 ```
 
 ## 快速開始
@@ -853,7 +852,6 @@ outputs/
 - 📖 [模型訓練指南.md](模型訓練指南.md) - 完整訓練教程
 - 📖 [模型測試指南.md](模型測試指南.md) - 部署和測試指南
 - 📊 [SUMMARY.md](SUMMARY.md) - 專案摘要和概覽
-- 📝 [TRAINING_COMPARISON.txt](TRAINING_COMPARISON.txt) - 訓練方法對比
 
 ## 故障排除
 
@@ -1546,7 +1544,6 @@ For more details, see:
 - 📖 [模型訓練指南.md](模型訓練指南.md) - Complete training tutorial
 - 📖 [模型測試指南.md](模型測試指南.md) - Deployment and testing guide
 - 📊 [SUMMARY.md](SUMMARY.md) - Project overview and summary
-- 📝 [TRAINING_COMPARISON.txt](TRAINING_COMPARISON.txt) - Training method comparison
 
 ## Troubleshooting
 
@@ -1682,7 +1679,6 @@ If you encounter issues:
 ### Model Training & Testing
 - **[模型訓練指南.md](模型訓練指南.md)** - Complete GPT-OSS 20B training guide (Chinese)
 - **[模型測試指南.md](模型測試指南.md)** - Model deployment and testing guide (Chinese)
-- **[TRAINING_COMPARISON.txt](TRAINING_COMPARISON.txt)** - Training methodology comparison
 - **[GPT_OSS_120B_Task_Performance_Report.md](GPT_OSS_120B_Task_Performance_Report.md)** - Performance analysis report
 
 ### Analysis Scripts
