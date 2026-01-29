@@ -387,9 +387,6 @@ class ToolExecutor:
                                     provided_item_ids = set()
                                     # If we cannot unambiguously infer, expose candidates in debug and abort
                                     logger.debug(f"Multiple pending orders for user '{user_key}': {pending}")
-                                    # We cannot safely infer which order to cancel without additional info
-                                    logger.warning(f"Multiple pending orders found for user '{user_key}'; cannot infer 'order_id' automatically: {pending}")
-                                    return None
                                     if 'item_ids' in provided_args and isinstance(provided_args['item_ids'], list):
                                         provided_item_ids = set(provided_args['item_ids'])
                                     elif 'items' in provided_args and isinstance(provided_args['items'], list):
@@ -411,6 +408,12 @@ class ToolExecutor:
                                         if len(matches) == 1:
                                             fixed_args[param_name] = matches[0]
                                             found = True
+                                    # If we still cannot disambiguate, abort safely
+                                    if not found:
+                                        logger.warning(
+                                            f"Multiple pending orders found for user '{user_key}'; cannot infer 'order_id' automatically: {pending}"
+                                        )
+                                        return None
 
                                 # If not found but only one candidate exists overall, infer it (with info log)
                                 if not found and len(candidates) == 1:
